@@ -36,22 +36,29 @@
     <moderation/>
   </entry>
   <entry>
-    <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
-    <title>PA69 feat. Drunken Masters - Barfuss auf dem Floor</title>
-    <duration>145</duration>
-    <type>song</type>
+    <id>afdecfd6-0151-4912-856f-66d232d7dca9</id>
+    <title>Neuer Eintrag</title>
+    <duration>180</duration>
+    <type>unclear</type>
     <moderation/>
   </entry>
   <entry>
     <id>c4ecdde9-5ebb-476e-9e51-368b558e4dd3</id>
     <title>Anmoderation Beitrag</title>
-    <duration>120</duration>
+    <duration>60</duration>
     <type>moderation</type>
     <moderation>R: "Das war Jain mit Makeba. Ein toller Song, der uns immer wieder zum Tanzen bringt. Und jetzt geht es
  weiter mit einem Beitrag von Hanneli Müller."
  S: "Ja, Hanneli Müller hat sich mit dem Thema 'Gewand' auseinandergesetzt und uns einen spannenden Beitrag
  dazu erstellt. Hört mal rein!"
 R: "Hiphop ist meine Lieblingsmusik".</moderation>
+  </entry>
+  <entry>
+    <id>fd6f671a-8270-46f1-83e4-a39d9469e316</id>
+    <title>Beitrag Hanneli Müller</title>
+    <duration>270</duration>
+    <type>feature</type>
+    <moderation/>
   </entry>
   <entry>
     <id>9cdc84f4-64ea-4308-ad51-6020edf2cee6</id>
@@ -75,17 +82,24 @@ R: "Hiphop ist meine Lieblingsmusik".</moderation>
     <moderation/>
   </entry>
   <entry>
-    <id>fd6f671a-8270-46f1-83e4-a39d9469e316</id>
-    <title>Beitrag Hanneli Müller</title>
-    <duration>270</duration>
-    <type>feature</type>
-    <moderation/>
-  </entry>
-  <entry>
     <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
     <title>What is Love?</title>
     <duration>180</duration>
     <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>78205254-31d1-4acc-a2fa-763e6b8f6bb4</id>
+    <title>Anmoderation Mal Ehrlich</title>
+    <duration>90</duration>
+    <type>moderation</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>03e78e05-0280-4255-924b-3cf43dbc98fd</id>
+    <title>Blaton Mal Ehrlich Jingle</title>
+    <duration>7</duration>
+    <type>jingle</type>
     <moderation/>
   </entry>
   <entry>
@@ -110,8 +124,36 @@ R: "Hiphop ist meine Lieblingsmusik".</moderation>
     <moderation/>
   </entry>
   <entry>
+    <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
+    <title>Song: Unklar</title>
+    <duration>180</duration>
+    <type>unclear</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
+    <title>Zwischenmoderation Zwei</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
+    <title>PA69 feat. Drunken Masters - Barfuss auf dem Floor</title>
+    <duration>145</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>5ad60ade-e2a0-4ddb-adaa-a32b53bb9565</id>
+    <title>Abmoderation</title>
+    <duration>120</duration>
+    <type>moderation</type>
+    <moderation/>
+  </entry>
+  <entry>
     <id>cb6b17a2-2285-44af-aca5-0995aec2ff14</id>
-    <title>Neuer Eintrag</title>
+    <title>Fulminanter Schlusssong</title>
     <duration>180</duration>
     <type>unclear</type>
     <moderation/>

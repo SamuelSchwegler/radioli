@@ -1,12 +1,15 @@
 <template>
-  <li class="px-4 py-4 sm:px-6 cursor-move" :class="{[type.color]: true}">
+  <li class="px-4 py-2.5 sm:px-6 cursor-move" :class="{[type.color]: true}">
     <div class="flex justify-between items-center">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-1">
         <div class="text-sm text-left">{{ formattedStart }}</div>
+        <div class="text-sm text-center w-12">
+          {{ item.tecNumber }}
+        </div>
         <div class="font-semibold">{{ item.title }}</div>
       </div>
       <div class="flex items-center gap-2 px-2">
-        <div v-if="item.moderation" class="text-sm text-white whitespace-pre-wrap bg-black/10 p-2 rounded">
+        <div v-if="item.moderation" class="text-sm text-black whitespace-pre-wrap p-2 rounded max-h-24 overflow-scroll">
           {{ item.moderation }}
         </div>
       </div>

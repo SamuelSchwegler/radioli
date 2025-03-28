@@ -9,9 +9,10 @@
               <TimeEntry
                   v-on:edit="(item) => editEntry = item"
                   :item="{
-        ...element,
-        start: getStartTime(index)
-      }"
+                    ...element,
+                    start: getStartTime(index),
+                    tecNumber: getTecNumber(index)
+                  }"
                   :key="element.title"
                   :types="types"
               />
@@ -92,11 +93,11 @@ const types = [{
 }, {
   value: 'moderation',
   label: 'Moderation',
-  color: 'bg-green-500'
+  color: 'bg-yellow-100'
 }, {
   value: 'song',
   label: 'Song',
-  color: 'bg-blue-500'
+  color: 'bg-blue-400'
 }, {
   value: 'unclear',
   label: 'Unklar',
@@ -104,7 +105,7 @@ const types = [{
 }, {
   value: 'feature',
   label: 'Beitrag',
-  color: 'bg-blue-100'
+  color: 'bg-blue-200'
 }]
 
 const programmTitle = ref('');
@@ -120,6 +121,16 @@ const getStartTime = (index) => {
   return timeline.value
       .slice(0, index)
       .reduce((acc, cur) => acc + cur.duration, 0)
+}
+
+const getTecNumber = (index) => {
+  if (timeline.value[index].type === 'moderation') {
+    return ''
+  }
+
+  return timeline.value
+      .slice(0, index)
+      .filter((item) => item.type !== 'moderation').length + 1
 }
 
 function changedOrder(event) {

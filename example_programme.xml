@@ -5,7 +5,6 @@
     <date>2025-04-03</date>
     <contributors>
       <contributor>Ralph</contributor>
-      <contributor>Samuel</contributor>
     </contributors>
   </meta>
   <entry>
@@ -13,59 +12,150 @@
     <title>Blaton Intro Jingle</title>
     <duration>10</duration>
     <type>jingle</type>
+    <moderation/>
   </entry>
   <entry>
     <id>d71eed46-c52c-4b19-a00a-ef8e63429955</id>
     <title>Anmoderation</title>
     <duration>80</duration>
     <type>moderation</type>
+    <moderation/>
   </entry>
   <entry>
     <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
     <title>Song 1</title>
     <duration>190</duration>
     <type>song</type>
+    <moderation/>
   </entry>
   <entry>
     <id>4d495929-5e00-4a6d-8c3f-6010ba21c296</id>
     <title>Rabe Fly Jingle</title>
     <duration>5</duration>
     <type>jingle</type>
+    <moderation/>
   </entry>
   <entry>
-    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
-    <title>Moderation Thema X</title>
+    <id>afdecfd6-0151-4912-856f-66d232d7dca9</id>
+    <title>Neuer Eintrag</title>
     <duration>180</duration>
-    <type>moderation</type>
-  </entry>
-  <entry>
-    <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
-    <title>PA69 feat. Drunken Masters - Barfuss auf dem Floor</title>
-    <duration>145</duration>
-    <type>song</type>
-  </entry>
-  <entry>
-    <id>9cdc84f4-64ea-4308-ad51-6020edf2cee6</id>
-    <title>Jain - Makeba</title>
-    <duration>249</duration>
-    <type>song</type>
+    <type>unclear</type>
+    <moderation/>
   </entry>
   <entry>
     <id>c4ecdde9-5ebb-476e-9e51-368b558e4dd3</id>
     <title>Anmoderation Beitrag</title>
     <duration>60</duration>
     <type>moderation</type>
+    <moderation>R: "Das war Jain mit Makeba. Ein toller Song, der uns immer wieder zum Tanzen bringt. Und jetzt geht es
+ weiter mit einem Beitrag von Hanneli Müller."
+ S: "Ja, Hanneli Müller hat sich mit dem Thema 'Gewand' auseinandergesetzt und uns einen spannenden Beitrag
+ dazu erstellt. Hört mal rein!"
+R: "Hiphop ist meine Lieblingsmusik".</moderation>
   </entry>
   <entry>
     <id>fd6f671a-8270-46f1-83e4-a39d9469e316</id>
     <title>Beitrag Hanneli Müller</title>
     <duration>270</duration>
     <type>feature</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>9cdc84f4-64ea-4308-ad51-6020edf2cee6</id>
+    <title>Jain - Makeba</title>
+    <duration>249</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
+    <title>Moderation Thema X</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation>Eine weitere Moderation. Jipie</moderation>
   </entry>
   <entry>
     <id>73521f76-ee52-418b-8fed-3aedb151c13b</id>
     <title>Blaton Jingle</title>
     <duration>5</duration>
     <type>jingle</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
+    <title>What is Love?</title>
+    <duration>180</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>78205254-31d1-4acc-a2fa-763e6b8f6bb4</id>
+    <title>Anmoderation Mal Ehrlich</title>
+    <duration>90</duration>
+    <type>moderation</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>03e78e05-0280-4255-924b-3cf43dbc98fd</id>
+    <title>Blaton Mal Ehrlich Jingle</title>
+    <duration>7</duration>
+    <type>jingle</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>8b122549-bf39-4ac9-8426-a54eec4162c8</id>
+    <title>Mal Ehrlich Teil 1</title>
+    <duration>600</duration>
+    <type>feature</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>6495f528-9317-46ad-b821-2467cbfbdf68</id>
+    <title>Wer hat an der Uhr gedreht.</title>
+    <duration>173</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>bd768ed0-f1cc-40a1-aa1c-65e34d00d429</id>
+    <title>Mal Ehrlich Teil 2</title>
+    <duration>600</duration>
+    <type>feature</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
+    <title>Song: Unklar</title>
+    <duration>180</duration>
+    <type>unclear</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
+    <title>Zwischenmoderation Zwei</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
+    <title>PA69 feat. Drunken Masters - Barfuss auf dem Floor</title>
+    <duration>145</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>5ad60ade-e2a0-4ddb-adaa-a32b53bb9565</id>
+    <title>Abmoderation</title>
+    <duration>120</duration>
+    <type>moderation</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>cb6b17a2-2285-44af-aca5-0995aec2ff14</id>
+    <title>Fulminanter Schlusssong</title>
+    <duration>180</duration>
+    <type>unclear</type>
+    <moderation/>
   </entry>
 </programme>
