@@ -63,14 +63,14 @@ import axios from 'axios'
 
 const loadMetadata = async () => {
   const response = await axios.get('http://localhost:3001/programme')
-  title.value = response.data.title[0]
-  date.value = response.data.date[0]
-  contributors.value = response.data.contributors[0].contributor
+  title.value = response.data.meta.title
+  date.value = response.data.meta.date
+  contributors.value = response.data.meta.contributors
 }
 loadMetadata();
 
 const saveMetadata = async () => {
-  await axios.post('http://localhost:3001/metadata', {
+  await axios.post('http://localhost:3001/programme/meta', {
     title: title.value,
     date: date.value,
     contributors: contributors.value

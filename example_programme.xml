@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<programme>
+  <meta>
+    <title>Gewand</title>
+    <date>2025-04-03</date>
+    <contributors>
+      <contributor>Ralph</contributor>
+      <contributor>Samuel</contributor>
+    </contributors>
+  </meta>
+  <entry>
+    <id>2a96f180-621a-470c-9571-96beae3ba98d</id>
+    <title>Blaton Intro Jingle</title>
+    <duration>10</duration>
+    <type>jingle</type>
+  </entry>
+  <entry>
+    <id>d71eed46-c52c-4b19-a00a-ef8e63429955</id>
+    <title>Anmoderation</title>
+    <duration>80</duration>
+    <type>moderation</type>
+  </entry>
+  <entry>
+    <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
+    <title>Song 1</title>
+    <duration>190</duration>
+    <type>song</type>
+  </entry>
+  <entry>
+    <id>4d495929-5e00-4a6d-8c3f-6010ba21c296</id>
+    <title>Rabe Fly Jingle</title>
+    <duration>5</duration>
+    <type>jingle</type>
+  </entry>
+  <entry>
+    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
+    <title>Moderation Thema X</title>
+    <duration>180</duration>
+    <type>moderation</type>
+  </entry>
+  <entry>
+    <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
+    <title>PA69 feat. Drunken Masters - Barfuss auf dem Floor</title>
+    <duration>145</duration>
+    <type>song</type>
+  </entry>
+  <entry>
+    <id>9cdc84f4-64ea-4308-ad51-6020edf2cee6</id>
+    <title>Jain - Makeba</title>
+    <duration>249</duration>
+    <type>song</type>
+  </entry>
+  <entry>
+    <id>c4ecdde9-5ebb-476e-9e51-368b558e4dd3</id>
+    <title>Anmoderation Beitrag</title>
+    <duration>60</duration>
+    <type>moderation</type>
+  </entry>
+  <entry>
+    <id>fd6f671a-8270-46f1-83e4-a39d9469e316</id>
+    <title>Beitrag Hanneli Müller</title>
+    <duration>270</duration>
+    <type>feature</type>
+  </entry>
+  <entry>
+    <id>73521f76-ee52-418b-8fed-3aedb151c13b</id>
+    <title>Blaton Jingle</title>
+    <duration>5</duration>
+    <type>jingle</type>
+  </entry>
+</programme>
