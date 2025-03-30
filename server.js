@@ -3,8 +3,7 @@ import fs from 'fs'
 import cors from 'cors'
 import bodyParser from 'body-parser'
 import {parseStringPromise, Builder} from 'xml2js'
-import * as XLSX from 'xlsx'
-
+import exportRoutes from './routes/export.js'
 const app = express()
 const port = 3001
 
@@ -106,74 +105,7 @@ app.post('/programme/entries', async (req, res) => {
     }
 });
 
-app.get('/programme/download', (req, res) => {
-    const filePath = './programme.xml'
-    res.download(filePath, 'programme.xml', (err) => {
-        if (err) {
-            console.error('Download failed:', err)
-            res.status(500).send('Error downloading file')
-        }
-    })
-});
-
-
-app.get('/programme/excel', async (req, res) => {
-    try {
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
-        const parsed = await parseStringPromise(xml)
-
-        const meta = parsed.programme.meta || {}
-        const entries = parsed.programme.entry || []
-
-        // Helper to format seconds as mm:ss
-        const formatTime = (seconds) => {
-            const m = Math.floor(seconds / 60).toString().padStart(2, '0')
-            const s = (seconds % 60).toString().padStart(2, '0')
-            return `${m}:${s}`
-        }
-
-        // Prepare data rows
-        let currentStart = 0
-        const rows = entries.map((entry, index) => {
-            const duration = parseInt(entry.duration?.[0] || '0', 10)
-            const row = {
-                '#': index + 1,
-                Title: entry.title?.[0] || '',
-                Type: entry.type?.[0] || '',
-                Start: formatTime(currentStart),
-                Duration: formatTime(duration),
-                Moderation: (entry.moderation?.[0] || '').trim()
-            }
-            currentStart += duration
-            return row
-        });
-
-        rows.push({
-            '#': '',
-            Title: '',
-            Type: '',
-            Start: '',
-            Duration: formatTime(currentStart),
-            Moderation: ''
-        })
-
-        // Create worksheet & workbook
-        const worksheet = XLSX.utils.json_to_sheet(rows)
-        const workbook = XLSX.utils.book_new()
-        XLSX.utils.book_append_sheet(workbook, worksheet, 'Zeitplan')
-
-        const programm_title = meta.title?.[0] || ''
-
-        // Generate buffer and send as file
-        const buffer = XLSX.write(workbook, { type: 'buffer', bookType: 'xlsx' })
-        res.setHeader('Content-Disposition', 'attachment; filename='+ programm_title +'.xlsx')
-        res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-        res.send(buffer)
-    } catch (err) {
-        console.error(err)
-        res.status(500).json({ error: 'Failed to generate Excel file' })
-    }
-});
+app.use('/programme', exportRoutes);
 
 app.listen(port, () => {
     console.log(`✅ Server running at http://localhost:${port}`)

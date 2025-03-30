@@ -80,7 +80,9 @@
 import Layout from "../Layout.vue";
 import {computed, ref} from "vue";
 import TimeEntry from "../components/TimeEntry.vue";
-import draggable from "vuedraggable"
+import draggable from "vuedraggable";
+import { useToast } from "vue-toastification";
+const toast = useToast()
 
 const timelineKey = ref(0);
 const timeline = ref([]);
@@ -155,7 +157,7 @@ import TextInput from "../components/TextInput.vue";
 
 const saveProgramme = async () => {
   await axios.post('http://localhost:3001/programme/entries', timeline.value)
-  console.log('Programme saved to XML!')
+  toast.success('Programm erfolgreich gespeichert!')
 }
 
 const downloadProgramme = async () => {
