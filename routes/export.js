@@ -14,12 +14,6 @@ router.get('/download', (req, res) => {
     })
 });
 
-const typeColors = {
-    jingle: {fgColor: {rgb: "FFCCE5FF"}},      // light blue
-    moderation: {fgColor: {rgb: "FFDDEEFF"}},  // light purple
-    song: {fgColor: {rgb: "FFFFF0D9"}},         // light yellow
-}
-
 
 router.get('/excel', async (req, res) => {
     try {
@@ -43,17 +37,17 @@ router.get('/excel', async (req, res) => {
         sheet.columns = [
             {header: 'Start', key: 'start'},
             {header: 'Dauer', key: 'duration'},
-            {header: 'Title', key: 'title'},
             {header: '#', key: 'tecNumber'},
-            {header: 'Type', key: 'type'},
+            {header: 'Title', key: 'title'},
             {header: 'Moderation', key: 'moderation'}
         ]
 
 // Type to color
         const typeColors = {
-            jingle: 'CCE5FF',
-            moderation: 'DDEEFF',
-            song: 'FFF0D9'
+            jingle:  "fdc700",
+            feature: "b9f8cf",
+            song: "51a2ff",
+            unclear: "fb2c36"
         }
 
 // Rows

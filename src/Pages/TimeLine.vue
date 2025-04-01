@@ -81,7 +81,8 @@ import Layout from "../Layout.vue";
 import {computed, ref} from "vue";
 import TimeEntry from "../components/TimeEntry.vue";
 import draggable from "vuedraggable";
-import { useToast } from "vue-toastification";
+import {useToast} from "vue-toastification";
+
 const toast = useToast()
 
 const timelineKey = ref(0);
@@ -91,11 +92,11 @@ const editEntry = ref({});
 const types = [{
   value: 'jingle',
   label: 'Jingle',
-  color: 'bg-yellow-500'
+  color: 'bg-yellow-400'
 }, {
   value: 'moderation',
   label: 'Moderation',
-  color: 'bg-yellow-100'
+  color: 'bg-white'
 }, {
   value: 'song',
   label: 'Song',
@@ -107,7 +108,11 @@ const types = [{
 }, {
   value: 'feature',
   label: 'Beitrag',
-  color: 'bg-blue-200'
+  color: 'bg-green-200'
+}, {
+  value: 'otone',
+  label: 'O-Ton',
+  color: 'bg-purple-200'
 }]
 
 const programmTitle = ref('');

@@ -9,7 +9,7 @@
         <div class="font-semibold">{{ item.title }}</div>
       </div>
       <div class="flex items-center gap-2 px-2">
-        <div v-if="item.moderation" class="text-sm text-black whitespace-pre-wrap p-2 rounded max-h-24 overflow-scroll">
+        <div v-if="item.moderation" class="text-sm text-black whitespace-pre-wrap p-2 rounded max-h-48 overflow-scroll">
           {{ item.moderation }}
         </div>
       </div>

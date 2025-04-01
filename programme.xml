@@ -19,72 +19,50 @@
     <title>Anmoderation</title>
     <duration>80</duration>
     <type>moderation</type>
-    <moderation/>
+    <moderation>S: Du losisch Blaton met B wie BH
+R: oder Boxershorts. Höt gohds es stond lang om alles wo met Chleider z tue hed.
+S: Üses Thema höt esch Gwand. 
+R: Teasen Moderation.
+S: Im hütige Mol ehrlich veroote mir wo du Hilf findsch wenn di Liebligskleidigsstück am usenander gheie-n-isch und du di partout nid möchtsch von em verabschiede.
+R: Wie immer gibt es auch passende Musik zum Thema. Wir fangen mal füdliblutt an und ziehen dann im Verlaufe der Sendung immer etwas mehr an. Das sind Roxette mit.. She's got nothing on (but the radio).</moderation>
   </entry>
   <entry>
-    <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
-    <title>Song 1</title>
-    <duration>190</duration>
+    <id>95befe93-366e-4ece-ad71-ea6d27998194</id>
+    <title>Roxette - She's got nothing on (but the radio)</title>
+    <duration>215</duration>
     <type>song</type>
     <moderation/>
   </entry>
   <entry>
     <id>4d495929-5e00-4a6d-8c3f-6010ba21c296</id>
-    <title>Rabe Fly Jingle</title>
-    <duration>5</duration>
-    <type>jingle</type>
-    <moderation/>
-  </entry>
-  <entry>
-    <id>afdecfd6-0151-4912-856f-66d232d7dca9</id>
-    <title>Neuer Eintrag</title>
-    <duration>180</duration>
-    <type>unclear</type>
-    <moderation/>
-  </entry>
-  <entry>
-    <id>c4ecdde9-5ebb-476e-9e51-368b558e4dd3</id>
-    <title>Anmoderation Beitrag</title>
-    <duration>60</duration>
-    <type>moderation</type>
-    <moderation>R: "Das war Jain mit Makeba. Ein toller Song, der uns immer wieder zum Tanzen bringt. Und jetzt geht es
- weiter mit einem Beitrag von Hanneli Müller."
- S: "Ja, Hanneli Müller hat sich mit dem Thema 'Gewand' auseinandergesetzt und uns einen spannenden Beitrag
- dazu erstellt. Hört mal rein!"
-R: "Hiphop ist meine Lieblingsmusik".</moderation>
-  </entry>
-  <entry>
-    <id>fd6f671a-8270-46f1-83e4-a39d9469e316</id>
-    <title>Beitrag Hanneli Müller</title>
-    <duration>270</duration>
-    <type>feature</type>
-    <moderation/>
-  </entry>
-  <entry>
-    <id>9cdc84f4-64ea-4308-ad51-6020edf2cee6</id>
-    <title>Jain - Makeba</title>
-    <duration>249</duration>
-    <type>song</type>
-    <moderation/>
-  </entry>
-  <entry>
-    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
-    <title>Moderation Thema X</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation>Eine weitere Moderation. Jipie</moderation>
-  </entry>
-  <entry>
-    <id>73521f76-ee52-418b-8fed-3aedb151c13b</id>
     <title>Blaton Jingle</title>
     <duration>5</duration>
     <type>jingle</type>
     <moderation/>
   </entry>
   <entry>
-    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
-    <title>What is Love?</title>
+    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
+    <title>Moderation: Kleider machen Leute</title>
     <duration>180</duration>
+    <type>moderation</type>
+    <moderation>Zuständigkeit: Samuel
+
+Diese Person trägt keine Kravatte, die ist nicht Kompetent?
+Arztkleidung
+
+S: Anmoderation Song</moderation>
+  </entry>
+  <entry>
+    <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
+    <title>Alligatoah - Du bist schön</title>
+    <duration>229</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
+    <title>The Frank Popp Ensamble - Hipp Teens</title>
+    <duration>181</duration>
     <type>song</type>
     <moderation/>
   </entry>
@@ -93,7 +71,8 @@ R: "Hiphop ist meine Lieblingsmusik".</moderation>
     <title>Anmoderation Mal Ehrlich</title>
     <duration>90</duration>
     <type>moderation</type>
-    <moderation/>
+    <moderation>R: Song Abmod
+S: Jetzt kömme mr zu däm Teil vo dr Sändig wo mr e Gascht in d’ Sändig ylade zum emol ganz ehrlich drüber rede wie us Stoff Kleidigstück wärde und ob die schöne und problematische Syte sich im Modebusiness d’ Woogschale halte. Bi uns im Studio isch d’ Modedesignerin Salome Egger wo sich in däre Wält beschtens uskennt. S’ Gspröch mit ihre fiehrt d’ Evelyne Béguin</moderation>
   </entry>
   <entry>
     <id>03e78e05-0280-4255-924b-3cf43dbc98fd</id>
@@ -111,9 +90,16 @@ R: "Hiphop ist meine Lieblingsmusik".</moderation>
   </entry>
   <entry>
     <id>6495f528-9317-46ad-b821-2467cbfbdf68</id>
-    <title>Wer hat an der Uhr gedreht.</title>
+    <title>Song</title>
     <duration>173</duration>
-    <type>song</type>
+    <type>unclear</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>73521f76-ee52-418b-8fed-3aedb151c13b</id>
+    <title>Blaton Jingle</title>
+    <duration>5</duration>
+    <type>jingle</type>
     <moderation/>
   </entry>
   <entry>
@@ -124,23 +110,47 @@ R: "Hiphop ist meine Lieblingsmusik".</moderation>
     <moderation/>
   </entry>
   <entry>
-    <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
-    <title>Song: Unklar</title>
-    <duration>180</duration>
-    <type>unclear</type>
+    <id>1b1587dc-ad97-44ab-8ff7-c9c5d3506ded</id>
+    <title>David Dundas - Jeans On</title>
+    <duration>194</duration>
+    <type>song</type>
     <moderation/>
   </entry>
   <entry>
     <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
-    <title>Zwischenmoderation Zwei</title>
+    <title>Moderation: Eiko Ishioka &amp; Fecal Matter</title>
     <duration>180</duration>
     <type>moderation</type>
+    <moderation>S: Abmod Jeans on
+
+Zuständigkeit: Ralph
+
+R: Anmod Song</moderation>
+  </entry>
+  <entry>
+    <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
+    <title>Nelly -  Hot in Herre</title>
+    <duration>244</duration>
+    <type>song</type>
     <moderation/>
   </entry>
   <entry>
+    <id>a9bfff5b-6c93-44d6-a254-8f9e3a7b64db</id>
+    <title>Moderation</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation>R: Startet...
+Welche Subkulturen waren wir? - Kennen wir?
+Subkulturen? -&gt; Bist du ein Skater oder Hiphoper. Geht zurück.
+
+Was unterscheidet Hiphoper von Skater? -&gt; Skater waren Punkiger.
+
+S: Anmod Song.</moderation>
+  </entry>
+  <entry>
     <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
-    <title>PA69 feat. Drunken Masters - Barfuss auf dem Floor</title>
-    <duration>145</duration>
+    <title>Moop Mama - Kapuze</title>
+    <duration>216</duration>
     <type>song</type>
     <moderation/>
   </entry>
@@ -149,13 +159,26 @@ R: "Hiphop ist meine Lieblingsmusik".</moderation>
     <title>Abmoderation</title>
     <duration>120</duration>
     <type>moderation</type>
-    <moderation/>
+    <moderation>R: Kaputzä isch dobä, und mir ziänd eus au zrugg. Eusi Stund isch nämlich umä
+S: Mir hoffäd ihr chönd öppis mitnää, [...]
+S: Wär Teili vo dä Sendig verpasst hät cha diä scho glii uf dä Podcastplatform vom Vertrauä naalosä, chasch eus grad au abonniärä
+R: Wennär wänd di wunderschönä Chleider vo dä Aiko Ishioka aaluägä, findschs äs uf eusärä Websiitä blaton.ch
+S: Nächste Sendung am 1. Mai, Thema: Vandalismus. Wiederholung am 3. Mai um 16:00 auf Rasa oder um 18:00 auf Kanal K.
+R: A derä Sendig mitgschaffät hät d Evelyne Beguin bim Mal Ehrlich. Ich bi dä Ralph gsii
+S. Und ich dä Samuel. Nachdemmär etz vil Songs glosät händ vo Chleider im Titäl händ losäd mär etz na än Song (START?) vo chleider im Namä vo dä Band hät: Das sind Jeans for Jesus. Passänd zu dä Position i dä Sendig heisst er "dä letscht Popsong".</moderation>
   </entry>
   <entry>
     <id>cb6b17a2-2285-44af-aca5-0995aec2ff14</id>
-    <title>Fulminanter Schlusssong</title>
-    <duration>180</duration>
-    <type>unclear</type>
+    <title>Jeans for Jesus - Dr letscht Popsong</title>
+    <duration>229</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>04b9c036-a869-402c-881d-e5541880ab8b</id>
+    <title>Hund am Strand - Jungen Mädchen</title>
+    <duration>182</duration>
+    <type>song</type>
     <moderation/>
   </entry>
 </programme>
