@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <programme>
   <meta>
-    <title>Gewand</title>
-    <date>2025-04-03</date>
+    <title>Vandalismus</title>
+    <date>2025-05-01</date>
     <contributors>
-      <contributor>Ralph</contributor>
+      <contributor>Samuel</contributor>
+      <contributor>Evelyne</contributor>
     </contributors>
   </meta>
   <entry>
@@ -34,13 +35,6 @@ R: Wie immer gibt es auch passende Musik zum Thema. Wir fangen mal füdliblutt a
     <moderation/>
   </entry>
   <entry>
-    <id>4d495929-5e00-4a6d-8c3f-6010ba21c296</id>
-    <title>Blaton Jingle</title>
-    <duration>5</duration>
-    <type>jingle</type>
-    <moderation/>
-  </entry>
-  <entry>
     <id>130646c9-788e-4ddb-94df-75d48e426303</id>
     <title>Moderation: Kleider machen Leute</title>
     <duration>180</duration>
@@ -50,19 +44,28 @@ R: Wie immer gibt es auch passende Musik zum Thema. Wir fangen mal füdliblutt a
 Diese Person trägt keine Kravatte, die ist nicht Kompetent?
 Arztkleidung
 
-S: Anmoderation Song</moderation>
-  </entry>
-  <entry>
-    <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
-    <title>Alligatoah - Du bist schön</title>
-    <duration>229</duration>
-    <type>song</type>
-    <moderation/>
+S: Anmoderation Song
+
+Hihiihihi</moderation>
   </entry>
   <entry>
     <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
     <title>The Frank Popp Ensamble - Hipp Teens</title>
     <duration>181</duration>
+    <type>song</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>33a59d60-97d9-4456-94ba-02129b600849</id>
+    <title>Blaton Jingle</title>
+    <duration>10</duration>
+    <type>jingle</type>
+    <moderation/>
+  </entry>
+  <entry>
+    <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
+    <title>Alligatoah - Du bist schön</title>
+    <duration>229</duration>
     <type>song</type>
     <moderation/>
   </entry>

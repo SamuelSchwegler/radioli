@@ -2,6 +2,7 @@ import express from 'express'
 import fs from 'fs'
 import {parseStringPromise, Builder} from 'xml2js'
 import ExcelJS from "exceljs";
+import { Document, Packer, Paragraph, TextRun, HeadingLevel } from "docx"
 
 const router = express.Router()
 router.get('/download', (req, res) => {
@@ -54,9 +55,7 @@ router.get('/excel', async (req, res) => {
         let currentStart = 0
         let tecNumber = 1;
         entries.forEach((e, i) => {
-            const duration = parseInt(e.duration?.[0] || '0', 10)
-            const startFormatted = formatTime(currentStart)
-            currentStart += duration
+            const durationSeconds = parseInt(e.duration?.[0] || '0', 10)
 
             let tecNumberLabel = tecNumber.toString();
             if (e.type?.[0] === 'moderation') {
@@ -69,10 +68,30 @@ router.get('/excel', async (req, res) => {
                 tecNumber: tecNumberLabel,
                 title: e.title?.[0] || '',
                 type: e.type?.[0] || '',
-                start: startFormatted,
-                duration: formatTime(duration),
+                start: null,
+                duration: durationSeconds / 86400, // convert seconds to Excel time
                 moderation: (e.moderation?.[0] || '').trim()
             })
+
+            // Style Duration cell (column B)
+            row.getCell('B').numFmt = '[mm]:ss'
+
+            // Apply formula for start
+            if (i === 0) {
+                // First row: 00:00
+                row.getCell('A').value = 0
+            } else {
+                // Next rows: Add previous start + previous duration
+                const prevStartCell = `A${i + 1}` // +1 because Excel is 1-indexed
+                const prevDurationCell = `B${i + 1}`
+
+                row.getCell('A').value = {
+                    formula: `${prevStartCell}+${prevDurationCell}`
+                }
+            }
+
+            // Style Start cell (column A)
+            row.getCell('A').numFmt = '[mm]:ss'
 
             // Color entire row
             const color = typeColors[e.type?.[0]]
@@ -106,5 +125,65 @@ router.get('/excel', async (req, res) => {
         res.status(500).json({error: 'Failed to generate Excel file'})
     }
 });
+
+
+router.get('/word', async (req, res) => {
+    try {
+        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const parsed = await parseStringPromise(xml, {})
+        const entries = parsed.programme.entry || []
+        const paragraphs = []
+
+        entries.forEach((entry) => {
+            const title = entry.title?.[0] || ''
+            const moderation = (entry.moderation?.[0] || '').trim()
+
+            if (title) {
+                paragraphs.push(
+                    new Paragraph({
+                        text: title,
+                        heading: HeadingLevel.HEADING_1,
+                        spacing: { after: 200 }
+                    })
+                )
+            }
+
+            if (moderation) {
+                paragraphs.push(
+                    new Paragraph({
+                        children: [
+                            new TextRun({
+                                text: moderation,
+                                font: "Arial",
+                                size: 24
+                            })
+                        ],
+                        spacing: { after: 400 }
+                    })
+                )
+            }
+        })
+
+        const doc = new Document({
+            sections: [
+                {
+                    properties: {},
+                    children: [
+                        ...paragraphs
+                    ]
+                }
+            ]
+        })
+
+        const buffer = await Packer.toBuffer(doc)
+
+        res.setHeader('Content-Disposition', 'attachment; filename=programme.docx')
+        res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+        res.send(buffer)
+    } catch (err) {
+        console.error(err)
+        res.status(500).json({ error: 'Failed to generate Word document' })
+    }
+})
 
 export default router;

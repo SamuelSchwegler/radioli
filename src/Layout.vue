@@ -1,12 +1,4 @@
 <template>
-  <!--
-    This example requires updating your template:
-
-    ```
-    <html class="h-full bg-white">
-    <body class="h-full">
-    ```
-  -->
   <div>
     <TransitionRoot as="template" :show="sidebarOpen">
       <Dialog class="relative z-50 lg:hidden" @close="sidebarOpen = false">
@@ -58,7 +50,7 @@
     </TransitionRoot>
 
     <!-- Static sidebar for desktop -->
-    <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
+    <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-64 lg:flex-col">
       <!-- Sidebar component, swap this element with another sidebar if you like -->
       <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-indigo-600 px-6 pb-4">
         <div class="flex h-16 shrink-0 items-center">
@@ -76,19 +68,13 @@
                 </li>
               </ul>
             </li>
-            <li class="mt-auto">
-              <a href="#" class="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-indigo-200 hover:bg-indigo-700 hover:text-white">
-                <Cog6ToothIcon class="size-6 shrink-0 text-indigo-200 group-hover:text-white" aria-hidden="true" />
-                Settings
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
     </div>
-    <div class="lg:pl-72">
-      <main class="py-10">
-        <div class="px-4 sm:px-6 lg:px-8">
+    <div class="lg:pl-64">
+      <main>
+        <div class="px-4 sm:px-4 lg:px-6">
           <slot />
         </div>
       </main>
@@ -119,7 +105,6 @@ const props = defineProps({
 });
 
 const navigation = [
-  { name: 'Dashboard', href: '/', icon: HomeIcon, current: props.currentName === 'Dashboard' },
   { name: 'Meta', href: '/meta', icon: UsersIcon, current: props.currentName === 'Meta' },
   { name: 'TimeLine', href: '/time-line', icon: DocumentDuplicateIcon, current: props.currentName === 'TimeLine' },
 ]

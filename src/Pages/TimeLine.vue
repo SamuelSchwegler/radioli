@@ -1,7 +1,7 @@
 <template>
   <Layout current-name="TimeLine">
-    <div class="grid gap-4 lg:grid-cols-3">
-      <div class="relative lg:col-span-2">
+    <div class="grid gap-4 lg:grid-cols-3 h-screen py-10">
+      <div class="relative lg:col-span-2 overflow-y-auto">
         <div class="overflow-hidden bg-white shadow sm:rounded-md">
           <draggable v-model="timeline" item-key="title" tag="ul" class="divide-y divide-gray-200"
                      @change="changedOrder" :key="timelineKey">
@@ -19,57 +19,26 @@
             </template>
           </draggable>
         </div>
-        <span class="text-sm">Totale Dauer: {{ formatSeconds(totalDuration) }}</span><br>
-        <button
-            @click="addEntry"
-            class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
-          Neuer Eintrag
-        </button>
       </div>
       <div class="relative">
-        <button
-            @click="downloadProgramme"
-            class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
+        <Btn @click="downloadProgramme">
           XML Herunterladen
-        </button>
-        <button
-            @click="downloadExcel"
-            class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
+        </Btn>
+        <Btn @click="downloadExcel">
           Excel Herunterladen
-        </button>
+        </Btn>
+        <Btn @click="downloadWord">
+          Download Moderation Word
+        </Btn>
         <template v-if="editEntry.hasOwnProperty('type')">
-          <hr class="my-2">
-          <TextInput v-model="editEntry.title" label="Name"/>
-          <div class="grid grid-cols-2 items-center gap-2">
-            <div>
-              <SelectInput :options="types" v-model="editEntry.type" label="Type"/>
-            </div>
-            <div>
-              <TimeInput v-model="editEntry.duration" label="Dauer"/>
-            </div>
-          </div>
-          <textarea v-if="editEntry.type === 'moderation'"
-                    v-model="editEntry.moderation"
-                    rows="12"
-                    placeholder="Enter moderation text..."
-                    class="w-full p-2 text-sm border rounded bg-white text-black"
-          />
-          <button
-              @click="overrideEntry"
-              class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-          >
-            Eintrag Anpassen
-          </button>
-          <button
-              @click="removeEntry"
-              class="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
-          >
-            Eintrag Löschen
-          </button>
+          <HorizontalLine/>
+          <EditTimeLineEntry v-model="editEntry" :types="types" v-on:override="overrideEntry" v-on:remove="removeEntry" />
         </template>
+        <HorizontalLine/>
+        <span class="text-sm">Totale Dauer: {{ formatSeconds(totalDuration) }}</span><br>
+        <Btn @click="addEntry">
+          Neuer Eintrag
+        </Btn>
       </div>
     </div>
 
@@ -82,6 +51,7 @@ import {computed, ref} from "vue";
 import TimeEntry from "../components/TimeEntry.vue";
 import draggable from "vuedraggable";
 import {useToast} from "vue-toastification";
+import Btn from "../components/Btn.vue";
 
 const toast = useToast()
 
@@ -159,6 +129,8 @@ import axios from 'axios'
 import SelectInput from "../components/SelectInput.vue";
 import TimeInput from "../components/TimeInput.vue";
 import TextInput from "../components/TextInput.vue";
+import HorizontalLine from "../components/HorizontalLine.vue";
+import EditTimeLineEntry from "./Parts/EditTimeLineEntry.vue";
 
 const saveProgramme = async () => {
   await axios.post('http://localhost:3001/programme/entries', timeline.value)
@@ -186,6 +158,18 @@ const downloadExcel = async () => {
   link.href = url
   link.download = programmTitle.value + '.xlsx'
   link.click()
+  URL.revokeObjectURL(url)
+}
+
+const downloadWord = async () => {
+  const response = await fetch('http://localhost:3001/programme/word')
+  const blob = await response.blob()
+  const url = URL.createObjectURL(blob)
+
+  const a = document.createElement('a')
+  a.href = url
+  a.download = 'programme.docx'
+  a.click()
   URL.revokeObjectURL(url)
 }
 
