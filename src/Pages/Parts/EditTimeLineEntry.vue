@@ -44,6 +44,7 @@ function overrideEntry() {
       <TimeInput v-model="editEntry.duration" label="Dauer"/>
     </div>
   </div>
+  <TextInput v-if="editEntry.type === 'song'" v-model="editEntry.comment" label="Kommentar"/>
   <textarea v-if="editEntry.type === 'moderation'"
             v-model="editEntry.moderation"
             rows="12"

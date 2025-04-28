@@ -136,7 +136,7 @@ router.get('/word', async (req, res) => {
 
         entries.forEach((entry) => {
             const title = entry.title?.[0] || ''
-            const moderation = (entry.moderation?.[0] || '').trim()
+            const moderation = (entry.moderation?.[0] || '').trim();
 
             if (title) {
                 paragraphs.push(
@@ -149,18 +149,21 @@ router.get('/word', async (req, res) => {
             }
 
             if (moderation) {
-                paragraphs.push(
-                    new Paragraph({
-                        children: [
-                            new TextRun({
-                                text: moderation,
-                                font: "Arial",
-                                size: 24
-                            })
-                        ],
-                        spacing: { after: 400 }
-                    })
-                )
+                const lines = moderation.split('\n')
+                lines.forEach((line) => {
+                    paragraphs.push(
+                        new Paragraph({
+                            children: [
+                                new TextRun({
+                                    text: line.trim(),
+                                    font: "Arial",
+                                    size: 24
+                                })
+                            ],
+                            spacing: { after: 200 } // smaller spacing for paragraphs
+                        })
+                    )
+                })
             }
         })
 

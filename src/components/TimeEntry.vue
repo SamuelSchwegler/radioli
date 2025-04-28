@@ -7,11 +7,15 @@
           {{ item.tecNumber }}
         </div>
         <div class="font-semibold">{{ item.title }}</div>
+        <div v-if="item.comment" class="pl-2 text-sm italic">
+          {{ item.comment }}
+        </div>
       </div>
       <div class="flex items-center gap-2 px-2">
         <div v-if="item.moderation" class="text-sm text-black whitespace-pre-wrap p-2 rounded max-h-48 overflow-scroll">
           {{ item.moderation }}
         </div>
+
       </div>
       <div class="flex items-center gap-2">
         <div class="text-sm ">{{ formattedDuration }}</div>

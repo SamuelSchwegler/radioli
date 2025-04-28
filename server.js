@@ -22,6 +22,7 @@ app.get('/programme', async (req, res) => {
             title: e.title[0],
             duration: parseInt(e.duration[0]),
             type: e.type[0],
+            comment: e.hasOwnProperty('comment') ? e.comment[0].replace(/\s+\n\s+/g, '\n') : null,  // Clean spacing around newlines
             moderation: e.hasOwnProperty('moderation') ? e.moderation[0].replace(/\s+\n\s+/g, '\n')  // Clean spacing around newlines
                 .replace(/[ \t]{2,}/g, ' ')  // Collapse excessive spaces/tabs
                 .trim() : ''
@@ -89,7 +90,8 @@ app.post('/programme/entries', async (req, res) => {
                     title: e.title,
                     duration: e.duration,
                     type: e.type,
-                    moderation: e.moderation
+                    moderation: e.moderation,
+                    comment: e.comment
                 }))
             }
         }

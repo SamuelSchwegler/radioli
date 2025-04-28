@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-2">
     <label class="block mb-1 text-sm font-medium text-gray-700">{{ label }}</label>
     <div class="relative">
       <input

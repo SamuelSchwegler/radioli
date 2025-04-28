@@ -14,68 +14,88 @@
     <duration>10</duration>
     <type>jingle</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>d71eed46-c52c-4b19-a00a-ef8e63429955</id>
     <title>Anmoderation</title>
     <duration>80</duration>
     <type>moderation</type>
-    <moderation>S: Du losisch Blaton met B wie BH
-R: oder Boxershorts. Höt gohds es stond lang om alles wo met Chleider z tue hed.
-S: Üses Thema höt esch Gwand. 
-R: Teasen Moderation.
-S: Im hütige Mol ehrlich veroote mir wo du Hilf findsch wenn di Liebligskleidigsstück am usenander gheie-n-isch und du di partout nid möchtsch von em verabschiede.
-R: Wie immer gibt es auch passende Musik zum Thema. Wir fangen mal füdliblutt an und ziehen dann im Verlaufe der Sendung immer etwas mehr an. Das sind Roxette mit.. She's got nothing on (but the radio).</moderation>
+    <moderation>S: Du losisch Blaton met B wie Barberei
+E: oder Brachial Beseitigen. Höt gohds be Blaton e stond lang om Vandalismus
+S: Z Gast im Mol Ehrlech esch en Sprayer [TEASER]..
+E: Teasen Anita.
+S: Mer im Studio redet öber s Volk vo de Vandale ond dröber wär das ganze eigentli zahlt, am Mikrofon send de Samuel...
+E: und Evelyne [ANMOD]</moderation>
+    <comment/>
   </entry>
   <entry>
     <id>95befe93-366e-4ece-ad71-ea6d27998194</id>
-    <title>Roxette - She's got nothing on (but the radio)</title>
-    <duration>215</duration>
+    <title>Mr Eco - Litterbug</title>
+    <duration>147</duration>
     <type>song</type>
     <moderation/>
-  </entry>
-  <entry>
-    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
-    <title>Moderation: Kleider machen Leute</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation>Zuständigkeit: Samuel
-
-Diese Person trägt keine Kravatte, die ist nicht Kompetent?
-Arztkleidung
-
-S: Anmoderation Song
-
-Hihiihihi</moderation>
-  </entry>
-  <entry>
-    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
-    <title>The Frank Popp Ensamble - Hipp Teens</title>
-    <duration>181</duration>
-    <type>song</type>
-    <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>33a59d60-97d9-4456-94ba-02129b600849</id>
-    <title>Blaton Jingle</title>
+    <title>Station Jingle</title>
     <duration>10</duration>
     <type>jingle</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
-    <id>b7741968-5348-4b92-bcfa-330d232c5062</id>
-    <title>Alligatoah - Du bist schön</title>
-    <duration>229</duration>
+    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
+    <title>Anmoderation Anita</title>
+    <duration>60</duration>
+    <type>moderation</type>
+    <moderation>Todo: Evelyne</moderation>
+    <comment/>
+  </entry>
+  <entry>
+    <id>0f1098cc-c8a3-4e02-a6e1-b2d9bf4fc396</id>
+    <title>Beitrag Anita: Littering</title>
+    <duration>300</duration>
+    <type>feature</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
+    <title>Linkin Park - Burn it Down</title>
+    <duration>230</duration>
     <type>song</type>
     <moderation/>
+    <comment>25s Start, 15s Ende</comment>
+  </entry>
+  <entry>
+    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
+    <title>Moderation: Evelyne</title>
+    <duration>240</duration>
+    <type>moderation</type>
+    <moderation>Samuel: Abmod Linkin Park -&gt; So stelle ich mir Vandalen vor.
+
+Evelyne: Germanisches Volk: Die Vandalen (mit einem schlechten Ruf).
+Evelyne: Anmod Wir sind Helden</moderation>
+    <comment/>
+  </entry>
+  <entry>
+    <id>cc6cb3be-228a-4200-8823-cc9ea7f0584f</id>
+    <title>Wir sind Helden - Kaputt</title>
+    <duration>190</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>78205254-31d1-4acc-a2fa-763e6b8f6bb4</id>
     <title>Anmoderation Mal Ehrlich</title>
     <duration>90</duration>
     <type>moderation</type>
-    <moderation>R: Song Abmod
-S: Jetzt kömme mr zu däm Teil vo dr Sändig wo mr e Gascht in d’ Sändig ylade zum emol ganz ehrlich drüber rede wie us Stoff Kleidigstück wärde und ob die schöne und problematische Syte sich im Modebusiness d’ Woogschale halte. Bi uns im Studio isch d’ Modedesignerin Salome Egger wo sich in däre Wält beschtens uskennt. S’ Gspröch mit ihre fiehrt d’ Evelyne Béguin</moderation>
+    <moderation>S: Das isch dä Teil vo dä Sendig, wo mir än Gast zu eus is Studio iiladed zum mit ihm mal ganz ehrlich drüber z redä was denn dä Reiz vo Täggä und Sprayä isch. Im Prinzip isch das doch eifach Vandalismus. Eusä Gascht isch dä Janosch, Miteigetümer vom Outlawz-Store in Bern. I gwüssä Chreisä wahrschindlich besser bekannt under sim Sprayernama "Biko".
+Dä Ralph redt mit ihm drüber öb mä mit Graffiti chan Gäld verdiänä, was er vo dä Bärnär Aktion "Casa Blanca" haltät und öb är schomal hät müässä vo dä Plizei flüchtä.</moderation>
+    <comment/>
   </entry>
   <entry>
     <id>03e78e05-0280-4255-924b-3cf43dbc98fd</id>
@@ -83,6 +103,7 @@ S: Jetzt kömme mr zu däm Teil vo dr Sändig wo mr e Gascht in d’ Sändig yla
     <duration>7</duration>
     <type>jingle</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>8b122549-bf39-4ac9-8426-a54eec4162c8</id>
@@ -90,13 +111,15 @@ S: Jetzt kömme mr zu däm Teil vo dr Sändig wo mr e Gascht in d’ Sändig yla
     <duration>600</duration>
     <type>feature</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>6495f528-9317-46ad-b821-2467cbfbdf68</id>
     <title>Song</title>
-    <duration>173</duration>
-    <type>unclear</type>
+    <duration>180</duration>
+    <type>song</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>73521f76-ee52-418b-8fed-3aedb151c13b</id>
@@ -104,6 +127,7 @@ S: Jetzt kömme mr zu däm Teil vo dr Sändig wo mr e Gascht in d’ Sändig yla
     <duration>5</duration>
     <type>jingle</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>bd768ed0-f1cc-40a1-aa1c-65e34d00d429</id>
@@ -111,77 +135,78 @@ S: Jetzt kömme mr zu däm Teil vo dr Sändig wo mr e Gascht in d’ Sändig yla
     <duration>600</duration>
     <type>feature</type>
     <moderation/>
-  </entry>
-  <entry>
-    <id>1b1587dc-ad97-44ab-8ff7-c9c5d3506ded</id>
-    <title>David Dundas - Jeans On</title>
-    <duration>194</duration>
-    <type>song</type>
-    <moderation/>
-  </entry>
-  <entry>
-    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
-    <title>Moderation: Eiko Ishioka &amp; Fecal Matter</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation>S: Abmod Jeans on
-
-Zuständigkeit: Ralph
-
-R: Anmod Song</moderation>
+    <comment/>
   </entry>
   <entry>
     <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
-    <title>Nelly -  Hot in Herre</title>
-    <duration>244</duration>
+    <title>Jule X - PyroTec</title>
+    <duration>158</duration>
     <type>song</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>a9bfff5b-6c93-44d6-a254-8f9e3a7b64db</id>
-    <title>Moderation</title>
-    <duration>180</duration>
+    <title>Moderation Samuel: Wer zahlt?</title>
+    <duration>240</duration>
     <type>moderation</type>
-    <moderation>R: Startet...
-Welche Subkulturen waren wir? - Kennen wir?
-Subkulturen? -&gt; Bist du ein Skater oder Hiphoper. Geht zurück.
+    <moderation>Samuel: Abmod Jule X
 
-Was unterscheidet Hiphoper von Skater? -&gt; Skater waren Punkiger.
+Samuel: Versicherung, Rechtliche Komponente
 
-S: Anmod Song.</moderation>
+Evelyne: Anmod Ok Danke Tschüss (Album: Kaputt weils Funktioniert)</moderation>
+    <comment/>
   </entry>
   <entry>
-    <id>1620306e-bfcc-46ce-a175-89ba6dd980a1</id>
-    <title>Moop Mama - Kapuze</title>
-    <duration>216</duration>
+    <id>be9f0b9a-cd35-4fef-9ce5-92d1c6013c14</id>
+    <title>ok.danke.tschüss - Zu laut in der Disko</title>
+    <duration>184</duration>
     <type>song</type>
     <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>856b176d-f3c3-4206-a289-e052cacab4bc</id>
+    <title>Blaton Jingle</title>
+    <duration>10</duration>
+    <type>jingle</type>
+    <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>5ad60ade-e2a0-4ddb-adaa-a32b53bb9565</id>
     <title>Abmoderation</title>
-    <duration>120</duration>
+    <duration>90</duration>
     <type>moderation</type>
-    <moderation>R: Kaputzä isch dobä, und mir ziänd eus au zrugg. Eusi Stund isch nämlich umä
-S: Mir hoffäd ihr chönd öppis mitnää, [...]
-S: Wär Teili vo dä Sendig verpasst hät cha diä scho glii uf dä Podcastplatform vom Vertrauä naalosä, chasch eus grad au abonniärä
-R: Wennär wänd di wunderschönä Chleider vo dä Aiko Ishioka aaluägä, findschs äs uf eusärä Websiitä blaton.ch
-S: Nächste Sendung am 1. Mai, Thema: Vandalismus. Wiederholung am 3. Mai um 16:00 auf Rasa oder um 18:00 auf Kanal K.
-R: A derä Sendig mitgschaffät hät d Evelyne Beguin bim Mal Ehrlich. Ich bi dä Ralph gsii
-S. Und ich dä Samuel. Nachdemmär etz vil Songs glosät händ vo Chleider im Titäl händ losäd mär etz na än Song (START?) vo chleider im Namä vo dä Band hät: Das sind Jeans for Jesus. Passänd zu dä Position i dä Sendig heisst er "dä letscht Popsong".</moderation>
+    <moderation>E: Wir haben eure Trommelfelle genügend Lange tracktiert, Zeit um bei der Vandalismussendung zum Punkt zu kommen - Irgendwann kann man ja nicht mehr mehr kaputt machen.
+S: Wär Teili vo dä Sendig verpasst hed cha sie scho gli of Blaton.ch nochelose.
+E: Nächste Sendung am 1. Mai, Thema, die Leinwand für Grafitti Artisten: Mauern. Wiederholung am 7. Juni um 16:00 auf Rasa oder um 18:00 auf Kanal K.
+S: Danke an Anita Hettich und Ralph Natter für Mitarbeit. Am Mikrofon für üch send gsi de Samuel Schwegler
+E: Und ich bin Evelyne und sage auf Wiederhören in vier Wochen. Anmod Song [Album: Destroyed, Broken Places]</moderation>
+    <comment/>
   </entry>
   <entry>
     <id>cb6b17a2-2285-44af-aca5-0995aec2ff14</id>
-    <title>Jeans for Jesus - Dr letscht Popsong</title>
-    <duration>229</duration>
+    <title>Moby - The Broken Places</title>
+    <duration>249</duration>
     <type>song</type>
     <moderation/>
+    <comment/>
   </entry>
   <entry>
-    <id>04b9c036-a869-402c-881d-e5541880ab8b</id>
-    <title>Hund am Strand - Jungen Mädchen</title>
-    <duration>182</duration>
+    <id>56736cb5-b042-48b2-9f4c-6dff3dce4feb</id>
+    <title>Ton Steine Scherben - Macht kaputt was euch kaputt macht</title>
+    <duration>299</duration>
     <type>song</type>
     <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>605e2c34-be94-4d8c-8748-1d9bc106bc81</id>
+    <title>Marina, Pussy Riot - Purge the Poison</title>
+    <duration>195</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
   </entry>
 </programme>
