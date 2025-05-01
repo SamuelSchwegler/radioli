@@ -70,7 +70,7 @@ router.get('/excel', async (req, res) => {
                 type: e.type?.[0] || '',
                 start: null,
                 duration: durationSeconds / 86400, // convert seconds to Excel time
-                moderation: (e.moderation?.[0] || '').trim()
+                moderation: (e.moderation?.[0] || e.comment?.[0] || '').trim()
             })
 
             // Style Duration cell (column B)

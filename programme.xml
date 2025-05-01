@@ -56,7 +56,7 @@ E: und Evelyne [ANMOD]</moderation>
   <entry>
     <id>0f1098cc-c8a3-4e02-a6e1-b2d9bf4fc396</id>
     <title>Beitrag Anita: Littering</title>
-    <duration>300</duration>
+    <duration>318</duration>
     <type>feature</type>
     <moderation/>
     <comment/>
@@ -86,7 +86,7 @@ Evelyne: Anmod Wir sind Helden</moderation>
     <duration>190</duration>
     <type>song</type>
     <moderation/>
-    <comment/>
+    <comment>18s Start, 7s Ende</comment>
   </entry>
   <entry>
     <id>78205254-31d1-4acc-a2fa-763e6b8f6bb4</id>
@@ -98,41 +98,9 @@ Dä Ralph redt mit ihm drüber öb mä mit Graffiti chan Gäld verdiänä, was e
     <comment/>
   </entry>
   <entry>
-    <id>03e78e05-0280-4255-924b-3cf43dbc98fd</id>
-    <title>Blaton Mal Ehrlich Jingle</title>
-    <duration>7</duration>
-    <type>jingle</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
     <id>8b122549-bf39-4ac9-8426-a54eec4162c8</id>
-    <title>Mal Ehrlich Teil 1</title>
-    <duration>600</duration>
-    <type>feature</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>6495f528-9317-46ad-b821-2467cbfbdf68</id>
-    <title>Song</title>
-    <duration>180</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>73521f76-ee52-418b-8fed-3aedb151c13b</id>
-    <title>Blaton Jingle</title>
-    <duration>5</duration>
-    <type>jingle</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>bd768ed0-f1cc-40a1-aa1c-65e34d00d429</id>
-    <title>Mal Ehrlich Teil 2</title>
-    <duration>600</duration>
+    <title>Mal Ehrlich inkl Song</title>
+    <duration>1500</duration>
     <type>feature</type>
     <moderation/>
     <comment/>
@@ -143,7 +111,7 @@ Dä Ralph redt mit ihm drüber öb mä mit Graffiti chan Gäld verdiänä, was e
     <duration>158</duration>
     <type>song</type>
     <moderation/>
-    <comment/>
+    <comment>4s Ende</comment>
   </entry>
   <entry>
     <id>a9bfff5b-6c93-44d6-a254-8f9e3a7b64db</id>
@@ -163,7 +131,7 @@ Evelyne: Anmod Ok Danke Tschüss (Album: Kaputt weils Funktioniert)</moderation>
     <duration>184</duration>
     <type>song</type>
     <moderation/>
-    <comment/>
+    <comment>16s Start, 3s Ende</comment>
   </entry>
   <entry>
     <id>856b176d-f3c3-4206-a289-e052cacab4bc</id>
@@ -176,7 +144,7 @@ Evelyne: Anmod Ok Danke Tschüss (Album: Kaputt weils Funktioniert)</moderation>
   <entry>
     <id>5ad60ade-e2a0-4ddb-adaa-a32b53bb9565</id>
     <title>Abmoderation</title>
-    <duration>90</duration>
+    <duration>60</duration>
     <type>moderation</type>
     <moderation>E: Wir haben eure Trommelfelle genügend Lange tracktiert, Zeit um bei der Vandalismussendung zum Punkt zu kommen - Irgendwann kann man ja nicht mehr mehr kaputt machen.
 S: Wär Teili vo dä Sendig verpasst hed cha sie scho gli of Blaton.ch nochelose.
@@ -191,22 +159,6 @@ E: Und ich bin Evelyne und sage auf Wiederhören in vier Wochen. Anmod Song [Alb
     <duration>249</duration>
     <type>song</type>
     <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>56736cb5-b042-48b2-9f4c-6dff3dce4feb</id>
-    <title>Ton Steine Scherben - Macht kaputt was euch kaputt macht</title>
-    <duration>299</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>605e2c34-be94-4d8c-8748-1d9bc106bc81</id>
-    <title>Marina, Pussy Riot - Purge the Poison</title>
-    <duration>195</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
+    <comment>Sehr gut zum Drüber Sprechen</comment>
   </entry>
 </programme>
