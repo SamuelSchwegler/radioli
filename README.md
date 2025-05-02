@@ -51,4 +51,4 @@ npm run dev
 ```bash
 node server.js
 ```
-Backend will serve the frontend and expose API routes on http://localhost:3001
+Backend will serve the frontend and expose API routes on http://localhost:3000

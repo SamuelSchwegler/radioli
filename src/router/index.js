@@ -6,9 +6,8 @@ import MetaData from '../Pages/MetaData.vue'
 import TimeLine from "../Pages/TimeLine.vue";
 
 const routes = [
-    { path: '/', name: 'Home', component: Home },
+    { path: '/', name: 'TimeLine', component: TimeLine },
     { path: '/meta', name: 'MetaData', component: MetaData },
-    { path: '/time-line', name: 'TimeLine', component: TimeLine }
 ]
 
 const router = createRouter({

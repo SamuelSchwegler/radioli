@@ -50,6 +50,7 @@ import Layout from "../Layout.vue";
 const title = ref('')
 const date = ref('')
 const contributors = ref(['']) // Start with one contributor input
+const apiUrl = import.meta.env.VITE_API_URL
 
 const addContributor = () => {
   contributors.value.push('')
@@ -62,7 +63,7 @@ const removeContributor = (index) => {
 import axios from 'axios'
 
 const loadMetadata = async () => {
-  const response = await axios.get('http://localhost:3001/programme')
+  const response = await axios.get(apiUrl + '/programme')
   title.value = response.data.meta.title
   date.value = response.data.meta.date
   contributors.value = response.data.meta.contributors
@@ -70,7 +71,7 @@ const loadMetadata = async () => {
 loadMetadata();
 
 const saveMetadata = async () => {
-  await axios.post('http://localhost:3001/programme/meta', {
+  await axios.post(apiUrl + '/programme/meta', {
     title: title.value,
     date: date.value,
     contributors: contributors.value

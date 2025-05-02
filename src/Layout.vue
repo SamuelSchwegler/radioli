@@ -106,7 +106,7 @@ const props = defineProps({
 
 const navigation = [
   { name: 'Meta', href: '/meta', icon: UsersIcon, current: props.currentName === 'Meta' },
-  { name: 'TimeLine', href: '/time-line', icon: DocumentDuplicateIcon, current: props.currentName === 'TimeLine' },
+  { name: 'TimeLine', href: '/', icon: DocumentDuplicateIcon, current: props.currentName === 'TimeLine' },
 ]
 
 const sidebarOpen = ref(false)

@@ -52,6 +52,7 @@ import TimeEntry from "../components/TimeEntry.vue";
 import draggable from "vuedraggable";
 import {useToast} from "vue-toastification";
 import Btn from "../components/Btn.vue";
+const apiUrl = import.meta.env.VITE_API_URL
 
 const toast = useToast()
 
@@ -88,7 +89,7 @@ const types = [{
 const programmTitle = ref('');
 
 const loadMetadata = async () => {
-  const response = await axios.get('http://localhost:3001/programme')
+  const response = await axios.get(apiUrl + '/programme')
   timeline.value = response.data.entries
   programmTitle.value = response.data.meta.title
 }
@@ -133,12 +134,12 @@ import HorizontalLine from "../components/HorizontalLine.vue";
 import EditTimeLineEntry from "./Parts/EditTimeLineEntry.vue";
 
 const saveProgramme = async () => {
-  await axios.post('http://localhost:3001/programme/entries', timeline.value)
+  await axios.post(apiUrl + '/programme/entries', timeline.value)
   toast.success('Programm erfolgreich gespeichert!')
 }
 
 const downloadProgramme = async () => {
-  const response = await fetch('http://localhost:3001/programme/download')
+  const response = await fetch(apiUrl + '/programme/download')
   const blob = await response.blob()
   const url = window.URL.createObjectURL(blob)
 
@@ -150,7 +151,7 @@ const downloadProgramme = async () => {
 }
 
 const downloadExcel = async () => {
-  const response = await fetch('http://localhost:3001/programme/excel')
+  const response = await fetch(apiUrl + '/programme/excel')
   const blob = await response.blob()
   const url = URL.createObjectURL(blob)
 
@@ -162,7 +163,7 @@ const downloadExcel = async () => {
 }
 
 const downloadWord = async () => {
-  const response = await fetch('http://localhost:3001/programme/word')
+  const response = await fetch(apiUrl + '/programme/word')
   const blob = await response.blob()
   const url = URL.createObjectURL(blob)
 

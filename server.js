@@ -5,7 +5,7 @@ import bodyParser from 'body-parser'
 import {parseStringPromise, Builder} from 'xml2js'
 import exportRoutes from './routes/export.js'
 const app = express()
-const port = 3001
+const port = 3000
 
 app.use(cors())
 app.use(bodyParser.json())
