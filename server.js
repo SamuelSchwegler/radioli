@@ -6,6 +6,8 @@ import {parseStringPromise, Builder} from 'xml2js'
 import exportRoutes from './routes/export.js'
 const app = express()
 const port = 3000
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -13,7 +15,10 @@ app.use(bodyParser.json())
 // Load metadata from XML
 app.get('/programme', async (req, res) => {
     try {
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const __filename = fileURLToPath(import.meta.url);
+        const __dirname = path.dirname(__filename);
+        const xmlPath = path.join(__dirname, 'programme.xml');
+        const xml = fs.readFileSync(xmlPath, 'utf8');
         const json = await parseStringPromise(xml)
 
         const entries = json.programme.entry || []

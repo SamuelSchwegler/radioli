@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <programme>
   <meta>
-    <title>Vandalismus</title>
-    <date>2025-05-01</date>
+    <title>Markt</title>
+    <date>2025-10-16</date>
     <contributors>
       <contributor>Samuel</contributor>
       <contributor>Evelyne</contributor>
@@ -21,21 +21,21 @@
     <title>Anmoderation</title>
     <duration>80</duration>
     <type>moderation</type>
-    <moderation>S: Du losisch Blaton met B wie Barberei
-E: oder Brachial Beseitigen. Höt gohds be Blaton e stond lang om Vandalismus
-S: Z Gast im Mol Ehrlech esch en Sprayer [TEASER]..
-E: Teasen Anita.
-S: Mer im Studio redet öber s Volk vo de Vandale ond dröber wär das ganze eigentli zahlt, am Mikrofon send de Samuel...
-E: und Evelyne [ANMOD]</moderation>
+    <moderation>S: Du losisch Blaton met B wie Börse, ...
+E: Oder Basler Herbstmesse.. wir Bummeln bei Blaton heute eine Stunden lang über Märkte.
+S: TEASER MAL EHRLICH
+E: Teaser Anita: Wasses ufem Bärner Wuchämärit zu de Ichöif gratis derzuä git u warum sech sonä Märitbsuech chönnt lohnä, erfahret Dir chly schpeter im Bitrag vo dr Anita 
+S: Mer im Studio redet öber Spekulationsblase wegen Tulpenzwiebeln und Jahrmärkte, am Mikrofon send de Samuel...
+E: und Evelyne ANMOD SONG</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>95befe93-366e-4ece-ad71-ea6d27998194</id>
-    <title>Mr Eco - Litterbug</title>
-    <duration>147</duration>
+    <id>07697dc2-0f48-47f3-95de-63f9c7990e67</id>
+    <title>OY - Marketplace</title>
+    <duration>226</duration>
     <type>song</type>
     <moderation/>
-    <comment/>
+    <comment>3s Start</comment>
   </entry>
   <entry>
     <id>33a59d60-97d9-4456-94ba-02129b600849</id>
@@ -50,88 +50,131 @@ E: und Evelyne [ANMOD]</moderation>
     <title>Anmoderation Anita</title>
     <duration>60</duration>
     <type>moderation</type>
-    <moderation>Todo: Evelyne</moderation>
+    <moderation>E: Ds Bärn gits ä ganzi Ziletä vo regumässig schtattfindendä Märitä. Dr Wuchemärit, dr Handwärkermärit, Schpeziaumäritä zum Bischpiu für Brot, Granium oder Wildpflanzä oder o dr Zibelämärit. Ufem Wuchemärit isch für öich d’Anita vo Blaton gsy u het vo de Lüt wöuä wüsse, warum u was se de ufä Märit zieht.</moderation>
     <comment/>
   </entry>
   <entry>
     <id>0f1098cc-c8a3-4e02-a6e1-b2d9bf4fc396</id>
-    <title>Beitrag Anita: Littering</title>
-    <duration>318</duration>
+    <title>Beitrag Anita</title>
+    <duration>300</duration>
     <type>feature</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
-    <title>Linkin Park - Burn it Down</title>
-    <duration>230</duration>
-    <type>song</type>
+    <id>7ec76cf6-2cd9-4b7f-aa6b-c2cd6bc0d0ca</id>
+    <title>Blaton Jingle</title>
+    <duration>10</duration>
+    <type>jingle</type>
     <moderation/>
-    <comment>25s Start, 15s Ende</comment>
-  </entry>
-  <entry>
-    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
-    <title>Moderation: Evelyne</title>
-    <duration>240</duration>
-    <type>moderation</type>
-    <moderation>Samuel: Abmod Linkin Park -&gt; So stelle ich mir Vandalen vor.
-
-Evelyne: Germanisches Volk: Die Vandalen (mit einem schlechten Ruf).
-Evelyne: Anmod Wir sind Helden</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>cc6cb3be-228a-4200-8823-cc9ea7f0584f</id>
-    <title>Wir sind Helden - Kaputt</title>
-    <duration>190</duration>
+    <id>7126af07-86b1-412d-8925-cdcd5c75aa6f</id>
+    <title>Gianmaria Testa - Gli amanti di Roma</title>
+    <duration>139</duration>
     <type>song</type>
     <moderation/>
-    <comment>18s Start, 7s Ende</comment>
+    <comment/>
+  </entry>
+  <entry>
+    <id>a9bfff5b-6c93-44d6-a254-8f9e3a7b64db</id>
+    <title>Moderation Samuel</title>
+    <duration>270</duration>
+    <type>moderation</type>
+    <moderation>S: Abmoderation Übergang Geld
+
+S: Moderation Tulpenmanie
+Auf Wochenmarkt gibt es Blumen -&gt; Herleitung Anita
+
+Tulpenzwiebel -&gt; Zwiebelmarkt.
+
+S: Anmod Song</moderation>
+    <comment/>
+  </entry>
+  <entry>
+    <id>43db0c45-c52a-47ed-9b1b-bf6a77cba17d</id>
+    <title>Mac Miller - Frick Park Market</title>
+    <duration>198</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
   </entry>
   <entry>
     <id>78205254-31d1-4acc-a2fa-763e6b8f6bb4</id>
     <title>Anmoderation Mal Ehrlich</title>
-    <duration>90</duration>
+    <duration>60</duration>
     <type>moderation</type>
-    <moderation>S: Das isch dä Teil vo dä Sendig, wo mir än Gast zu eus is Studio iiladed zum mit ihm mal ganz ehrlich drüber z redä was denn dä Reiz vo Täggä und Sprayä isch. Im Prinzip isch das doch eifach Vandalismus. Eusä Gascht isch dä Janosch, Miteigetümer vom Outlawz-Store in Bern. I gwüssä Chreisä wahrschindlich besser bekannt under sim Sprayernama "Biko".
-Dä Ralph redt mit ihm drüber öb mä mit Graffiti chan Gäld verdiänä, was er vo dä Bärnär Aktion "Casa Blanca" haltät und öb är schomal hät müässä vo dä Plizei flüchtä.</moderation>
+    <moderation>Todo: Samuel</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>8b122549-bf39-4ac9-8426-a54eec4162c8</id>
-    <title>Mal Ehrlich inkl Song</title>
-    <duration>1500</duration>
+    <id>5dc2696d-5f53-4d66-960c-25c35e840385</id>
+    <title>Intro Mal Ehrlich</title>
+    <duration>15</duration>
+    <type>jingle</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>6c4da469-5bc1-44c4-9c89-aaef39bb65f2</id>
+    <title>Mal Ehrlich Teil 1</title>
+    <duration>600</duration>
     <type>feature</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
-    <title>Jule X - PyroTec</title>
-    <duration>158</duration>
-    <type>song</type>
+    <id>79642bb7-e1e8-4f2e-8c52-2279801bb356</id>
+    <title>Song</title>
+    <duration>180</duration>
+    <type>unclear</type>
     <moderation/>
-    <comment>4s Ende</comment>
-  </entry>
-  <entry>
-    <id>a9bfff5b-6c93-44d6-a254-8f9e3a7b64db</id>
-    <title>Moderation Samuel: Wer zahlt?</title>
-    <duration>240</duration>
-    <type>moderation</type>
-    <moderation>Samuel: Abmod Jule X
-
-Samuel: Versicherung, Rechtliche Komponente
-
-Evelyne: Anmod Ok Danke Tschüss (Album: Kaputt weils Funktioniert)</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>be9f0b9a-cd35-4fef-9ce5-92d1c6013c14</id>
-    <title>ok.danke.tschüss - Zu laut in der Disko</title>
-    <duration>184</duration>
+    <id>a8c0fe04-061e-4ceb-8f35-8513d9b51753</id>
+    <title>Blaton Jingle</title>
+    <duration>10</duration>
+    <type>jingle</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>1b0c96d0-800c-490c-bbd5-aa1db20b3041</id>
+    <title>Mal Ehrlich Teil 2</title>
+    <duration>600</duration>
+    <type>feature</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>d0a32225-b75c-4524-9e09-c152008a54e6</id>
+    <title>Cher - Carousel Man</title>
+    <duration>183</duration>
     <type>song</type>
     <moderation/>
-    <comment>16s Start, 3s Ende</comment>
+    <comment/>
+  </entry>
+  <entry>
+    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
+    <title>Moderation: Evelyne</title>
+    <duration>270</duration>
+    <type>moderation</type>
+    <moderation>E: Abmod
+
+Jahrmarkt, Basler Herbstmesse.
+
+E: Anmod. Song Taxi Taxi ist vom Album Mercato.</moderation>
+    <comment/>
+  </entry>
+  <entry>
+    <id>8727a461-6976-4190-bed9-b2d0be07624f</id>
+    <title>Lo &amp; Leduc - Taxi Taxi</title>
+    <duration>163</duration>
+    <type>song</type>
+    <moderation/>
+    <comment>Start 2s, 5s Ende</comment>
   </entry>
   <entry>
     <id>856b176d-f3c3-4206-a289-e052cacab4bc</id>
@@ -144,21 +187,39 @@ Evelyne: Anmod Ok Danke Tschüss (Album: Kaputt weils Funktioniert)</moderation>
   <entry>
     <id>5ad60ade-e2a0-4ddb-adaa-a32b53bb9565</id>
     <title>Abmoderation</title>
-    <duration>60</duration>
+    <duration>90</duration>
     <type>moderation</type>
-    <moderation>E: Wir haben eure Trommelfelle genügend Lange tracktiert, Zeit um bei der Vandalismussendung zum Punkt zu kommen - Irgendwann kann man ja nicht mehr mehr kaputt machen.
-S: Wär Teili vo dä Sendig verpasst hed cha sie scho gli of Blaton.ch nochelose.
-E: Nächste Sendung am 1. Mai, Thema, die Leinwand für Grafitti Artisten: Mauern. Wiederholung am 7. Juni um 16:00 auf Rasa oder um 18:00 auf Kanal K.
-S: Danke an Anita Hettich und Ralph Natter für Mitarbeit. Am Mikrofon für üch send gsi de Samuel Schwegler
-E: Und ich bin Evelyne und sage auf Wiederhören in vier Wochen. Anmod Song [Album: Destroyed, Broken Places]</moderation>
+    <moderation>S: Das wars schon wieder. Wär Teili vo dä Sendig verpasst hed cha sie scho gli of Blaton.ch nochelose.
+
+E: Nächste Sendung am auf Rabe am Donnerstag 13. November. Thema Tierisch. Wiederholung am Samstag 6. Dezember um 16:00 auf Rasa oder um 18:00 auf Kanal K.
+
+S: Danke an Anita Hettich und Ralph Natter für Mitarbeit.  Anmod Too Many Zooz. [START SONG] Am Mikrofon Samuel
+
+E: und Evelyne. Verabschiedung...</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>cb6b17a2-2285-44af-aca5-0995aec2ff14</id>
-    <title>Moby - The Broken Places</title>
-    <duration>249</duration>
+    <id>a279db4c-a00d-4903-b0ee-a6ad82e25290</id>
+    <title>Too Many Zooz - To the top</title>
+    <duration>200</duration>
     <type>song</type>
     <moderation/>
-    <comment>Sehr gut zum Drüber Sprechen</comment>
+    <comment/>
+  </entry>
+  <entry>
+    <id>5fa4b56f-b284-4243-8257-d59459125c53</id>
+    <title>DCVDNS - Manny Markt (feat. LGoony)</title>
+    <duration>196</duration>
+    <type>song</type>
+    <moderation/>
+    <comment>5s Schluss</comment>
+  </entry>
+  <entry>
+    <id>daba04b5-2b7d-4d2e-b5ea-9f1938bd1dc6</id>
+    <title>Falco - Geld</title>
+    <duration>227</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
   </entry>
 </programme>
