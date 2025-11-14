@@ -4,10 +4,11 @@ import cors from 'cors'
 import bodyParser from 'body-parser'
 import {parseStringPromise, Builder} from 'xml2js'
 import exportRoutes from './routes/export.js'
+
 const app = express()
 const port = 3000
 import path from 'path';
-import { fileURLToPath } from 'url';
+import {fileURLToPath} from 'url';
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -50,7 +51,7 @@ app.post('/programme/meta', async (req, res) => {
         const newMeta = req.body
 
         // Read and parse existing XML
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const xml = fs.readFileSync('radioli/programme.xml', 'utf-8')
         const existing = await parseStringPromise(xml)
 
         // Replace the meta, keep the entries
@@ -70,7 +71,7 @@ app.post('/programme/meta', async (req, res) => {
         const builder = new Builder()
         const newXml = builder.buildObject(updatedProgramme)
 
-        fs.writeFileSync('programme.xml', newXml)
+        fs.writeFileSync('radioli/programme.xml', newXml)
         res.json({message: 'Metadata updated. Entries preserved.'})
     } catch (err) {
         console.error(err)
@@ -83,7 +84,7 @@ app.post('/programme/entries', async (req, res) => {
         const newEntries = req.body
 
         // Read and parse existing XML
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const xml = fs.readFileSync('radioli/programme.xml', 'utf-8')
         const existing = await parseStringPromise(xml)
 
         // Update entries but keep meta
@@ -104,7 +105,7 @@ app.post('/programme/entries', async (req, res) => {
         const builder = new Builder()
         const newXml = builder.buildObject(updatedProgramme)
 
-        fs.writeFileSync('programme.xml', newXml)
+        fs.writeFileSync('radioli/programme.xml', newXml)
         res.json({message: 'Programme entries updated. Metadata preserved.'})
     } catch (err) {
         console.error(err)
