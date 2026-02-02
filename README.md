@@ -38,7 +38,7 @@ npm install
 ```bash
 npm run build
 ```
-This outputs production-ready frontend files in /dist.
+This outputs production-ready frontend files in /dist. Diese Dateien müssen auf den Server kopiert werden.
 
 Or if you want to run the development server:
 
@@ -52,3 +52,11 @@ npm run dev
 node server.js
 ```
 Backend will serve the frontend and expose API routes on http://localhost:3000
+
+Auf dem Server läuft die Anwendung unter https://radioli.blaton.ch/api.
+
+Falls sich ein File ändert des Servers (server.js, routes/*.js), muss der Server neu gestartet werden.
+
+```bash
+sudo -u nodejs pm2 restart radioli
+```

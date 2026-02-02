@@ -1,13 +1,14 @@
 import express from 'express'
 import fs from 'fs'
-import {parseStringPromise, Builder} from 'xml2js'
+import {parseStringPromise} from 'xml2js'
 import ExcelJS from "exceljs";
-import { Document, Packer, Paragraph, TextRun, HeadingLevel } from "docx"
+import {Document, Packer, Paragraph, TextRun, HeadingLevel} from "docx"
+import {getXmlPath} from "./helper.js";
 
 const router = express.Router()
 router.get('/download', (req, res) => {
-    const filePath = './programme.xml'
-    res.download(filePath, 'programme.xml', (err) => {
+    const xmlPath = getXmlPath();
+    res.download(xmlPath, 'programme.xml', (err) => {
         if (err) {
             console.error('Download failed:', err)
             res.status(500).send('Error downloading file')
@@ -17,8 +18,9 @@ router.get('/download', (req, res) => {
 
 
 router.get('/excel', async (req, res) => {
+    const xmlPath = getXmlPath();
     try {
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const xml = fs.readFileSync(xmlPath, 'utf-8')
         const parsed = await parseStringPromise(xml)
 
         const meta = parsed.programme.meta || {}
@@ -45,7 +47,7 @@ router.get('/excel', async (req, res) => {
 
 // Type to color
         const typeColors = {
-            jingle:  "fdc700",
+            jingle: "fdc700",
             feature: "b9f8cf",
             song: "51a2ff",
             unclear: "fb2c36"
@@ -122,14 +124,16 @@ router.get('/excel', async (req, res) => {
         res.send(buffer)
     } catch (err) {
         console.error(err)
-        res.status(500).json({error: 'Failed to generate Excel file'})
+        res.status(500).json({error: 'Failed to generate Excel file', xmlPath: xmlPath})
     }
 });
 
 
 router.get('/word', async (req, res) => {
+    const xmlPath = getXmlPath();
+
     try {
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const xml = fs.readFileSync(xmlPath, 'utf-8')
         const parsed = await parseStringPromise(xml, {})
         const entries = parsed.programme.entry || []
         const paragraphs = []
@@ -143,7 +147,7 @@ router.get('/word', async (req, res) => {
                     new Paragraph({
                         text: title,
                         heading: HeadingLevel.HEADING_1,
-                        spacing: { after: 200 }
+                        spacing: {after: 200}
                     })
                 )
             }
@@ -160,7 +164,7 @@ router.get('/word', async (req, res) => {
                                     size: 24
                                 })
                             ],
-                            spacing: { after: 200 } // smaller spacing for paragraphs
+                            spacing: {after: 200} // smaller spacing for paragraphs
                         })
                     )
                 })
@@ -185,7 +189,7 @@ router.get('/word', async (req, res) => {
         res.send(buffer)
     } catch (err) {
         console.error(err)
-        res.status(500).json({ error: 'Failed to generate Word document' })
+        res.status(500).json({error: 'Failed to generate Word document'})
     }
 })
 

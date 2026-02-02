@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <programme>
   <meta>
-    <title>Vandalismus</title>
-    <date>2025-05-01</date>
+    <title>Frgen V - 11.12.2025</title>
+    <date>2025-12-11</date>
     <contributors>
-      <contributor>Samuel</contributor>
-      <contributor>Evelyne</contributor>
+      <contributor>Ralph</contributor>
+      <contributor>Anita</contributor>
     </contributors>
   </meta>
+  <entry>
+    <id>d05eb81c-7858-42dc-99d2-21386e0f7e8e</id>
+    <title>Anmod</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation>A: Hallo zäme da usä. Dir loset Blaton mit B wiä Blödsinn, Botztusig oder Bregunta... ok, ds Letschtä schribtmä zwar mitemenä "P" aber es passt so guet zu üserä letschtä Sändig vo däm jahr wosech aues um offe blibeni Fragä dräit. Ig wirde mir zwar müessä Müa gä nid eifach schtumm mit offenem Mu da z'sitze, mir sände nämlech zum erschte Mau us üsne affegeilä, wunderschöne, nöiä Schtudios hiä im Sulgerain zBärn. Für öich hüt am Mic binig d'Anita...
+R: und dä Ralph. Wi immer idä letschtä Sendig kümmeräd mär eus um alli offnänä Fragä vom Jahr
+A: Wo das Valsalva Manöver stattfindet, werum mär dickeri und dünneri Spaghetti ässäd und öb Plastik neuschtänsch zu eusnä Grundahrigsmittel ghört das ghöräd är i derä Sendung
+R: Aber zerscht staartämär mitemenä Song: XXXX</moderation>
+    <comment/>
+  </entry>
   <entry>
     <id>2a96f180-621a-470c-9571-96beae3ba98d</id>
     <title>Blaton Intro Jingle</title>
@@ -17,148 +28,217 @@
     <comment/>
   </entry>
   <entry>
-    <id>d71eed46-c52c-4b19-a00a-ef8e63429955</id>
-    <title>Anmoderation</title>
-    <duration>80</duration>
-    <type>moderation</type>
-    <moderation>S: Du losisch Blaton met B wie Barberei
-E: oder Brachial Beseitigen. Höt gohds be Blaton e stond lang om Vandalismus
-S: Z Gast im Mol Ehrlech esch en Sprayer [TEASER]..
-E: Teasen Anita.
-S: Mer im Studio redet öber s Volk vo de Vandale ond dröber wär das ganze eigentli zahlt, am Mikrofon send de Samuel...
-E: und Evelyne [ANMOD]</moderation>
-    <comment/>
-  </entry>
-  <entry>
-    <id>95befe93-366e-4ece-ad71-ea6d27998194</id>
-    <title>Mr Eco - Litterbug</title>
-    <duration>147</duration>
+    <id>ca677a7e-fcd6-4d1e-a511-4a1eaaaf310f</id>
+    <title>Roger Cicero - Wenn Sie dich fragt</title>
+    <duration>284</duration>
     <type>song</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>33a59d60-97d9-4456-94ba-02129b600849</id>
-    <title>Station Jingle</title>
-    <duration>10</duration>
-    <type>jingle</type>
+    <id>edaade0c-1305-4a2f-ae34-fe0e74ea45d5</id>
+    <title>Anmod</title>
+    <duration>30</duration>
+    <type>moderation</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>130646c9-788e-4ddb-94df-75d48e426303</id>
-    <title>Anmoderation Anita</title>
-    <duration>60</duration>
-    <type>moderation</type>
-    <moderation>Todo: Evelyne</moderation>
+    <id>3cfeb579-e78b-4c0e-b6ae-0ffd6fcba1fa</id>
+    <title>Kapelle der guten Hoffnung - Eine gute Frage</title>
+    <duration>199</duration>
+    <type>song</type>
+    <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>0f1098cc-c8a3-4e02-a6e1-b2d9bf4fc396</id>
-    <title>Beitrag Anita: Littering</title>
-    <duration>318</duration>
+    <id>2371a5e7-a588-4301-bf16-6f6663a655a4</id>
+    <title>Dumme Fragen - Karin</title>
+    <duration>185</duration>
     <type>feature</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>11b2fc54-804f-44e2-88ee-7b51b2cae5d8</id>
-    <title>Linkin Park - Burn it Down</title>
-    <duration>230</duration>
-    <type>song</type>
+    <id>6bacebe1-7ee3-4642-ac33-602cb12da618</id>
+    <title>Regen</title>
+    <duration>10</duration>
+    <type>otone</type>
     <moderation/>
-    <comment>25s Start, 15s Ende</comment>
-  </entry>
-  <entry>
-    <id>914ef2e6-d8cd-4a56-b721-971942006cf9</id>
-    <title>Moderation: Evelyne</title>
-    <duration>240</duration>
-    <type>moderation</type>
-    <moderation>Samuel: Abmod Linkin Park -&gt; So stelle ich mir Vandalen vor.
-
-Evelyne: Germanisches Volk: Die Vandalen (mit einem schlechten Ruf).
-Evelyne: Anmod Wir sind Helden</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>cc6cb3be-228a-4200-8823-cc9ea7f0584f</id>
-    <title>Wir sind Helden - Kaputt</title>
-    <duration>190</duration>
-    <type>song</type>
-    <moderation/>
-    <comment>18s Start, 7s Ende</comment>
-  </entry>
-  <entry>
-    <id>78205254-31d1-4acc-a2fa-763e6b8f6bb4</id>
-    <title>Anmoderation Mal Ehrlich</title>
-    <duration>90</duration>
+    <id>e67e3454-c506-4874-bf6b-af6a531802b6</id>
+    <title>Velo durch Regen - Anita</title>
+    <duration>120</duration>
     <type>moderation</type>
-    <moderation>S: Das isch dä Teil vo dä Sendig, wo mir än Gast zu eus is Studio iiladed zum mit ihm mal ganz ehrlich drüber z redä was denn dä Reiz vo Täggä und Sprayä isch. Im Prinzip isch das doch eifach Vandalismus. Eusä Gascht isch dä Janosch, Miteigetümer vom Outlawz-Store in Bern. I gwüssä Chreisä wahrschindlich besser bekannt under sim Sprayernama "Biko".
-Dä Ralph redt mit ihm drüber öb mä mit Graffiti chan Gäld verdiänä, was er vo dä Bärnär Aktion "Casa Blanca" haltät und öb är schomal hät müässä vo dä Plizei flüchtä.</moderation>
+    <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>8b122549-bf39-4ac9-8426-a54eec4162c8</id>
-    <title>Mal Ehrlich inkl Song</title>
-    <duration>1500</duration>
+    <id>cb897972-a16d-4b7c-8ff8-d9e734702360</id>
+    <title>Gjon's Tears - Répondez moi</title>
+    <duration>179</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>bae24965-3b54-4368-8159-da3bd266babf</id>
+    <title>Anmod</title>
+    <duration>30</duration>
+    <type>moderation</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>df6e76dd-bb1d-4bc5-9b6e-86dee50bab7b</id>
+    <title>Wohnwagen - Samuel</title>
+    <duration>150</duration>
     <type>feature</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>d7276210-c25d-4ae3-a1da-54a313da6afb</id>
-    <title>Jule X - PyroTec</title>
-    <duration>158</duration>
+    <id>7b22eb29-0283-42bb-8573-0b85e0add90f</id>
+    <title>Sina - Ä Frag vo dä Ziit (Trip as Meer - Wohnwagen)</title>
+    <duration>214</duration>
     <type>song</type>
     <moderation/>
-    <comment>4s Ende</comment>
-  </entry>
-  <entry>
-    <id>a9bfff5b-6c93-44d6-a254-8f9e3a7b64db</id>
-    <title>Moderation Samuel: Wer zahlt?</title>
-    <duration>240</duration>
-    <type>moderation</type>
-    <moderation>Samuel: Abmod Jule X
-
-Samuel: Versicherung, Rechtliche Komponente
-
-Evelyne: Anmod Ok Danke Tschüss (Album: Kaputt weils Funktioniert)</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>be9f0b9a-cd35-4fef-9ce5-92d1c6013c14</id>
-    <title>ok.danke.tschüss - Zu laut in der Disko</title>
-    <duration>184</duration>
-    <type>song</type>
+    <id>3cec9200-5c0d-4954-9e1d-01e26897da4a</id>
+    <title>Fingernägel - Anita</title>
+    <duration>180</duration>
+    <type>moderation</type>
     <moderation/>
-    <comment>16s Start, 3s Ende</comment>
+    <comment/>
   </entry>
   <entry>
-    <id>856b176d-f3c3-4206-a289-e052cacab4bc</id>
-    <title>Blaton Jingle</title>
+    <id>b0de9780-0acb-403e-a0ea-2561440b7d73</id>
+    <title>System of a Down - Question!</title>
+    <duration>200</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>3b03d5a9-8812-4cba-b19c-1611de62b977</id>
+    <title>Anmod</title>
+    <duration>30</duration>
+    <type>moderation</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>ed4612d1-ba2e-4a05-b3ae-a987f44ca351</id>
+    <title>Atmen durch die Ohren</title>
+    <duration>210</duration>
+    <type>feature</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>d68466ae-89bc-45e6-a8d4-ac4bb9928a80</id>
+    <title>Doctor by Day - La Pregunta</title>
+    <duration>180</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>34d646fe-45e2-44ad-8ff5-139ecb8df5ad</id>
+    <title>Münzgrösse  - Ralph</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>048aa341-00fb-4104-a136-d234465bbcea</id>
+    <title>Prince - The Question of You</title>
+    <duration>239</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>1cf0d7c2-c950-41a0-acea-92abb4f30744</id>
+    <title>Anmod</title>
+    <duration>30</duration>
+    <type>moderation</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>69e912cf-e713-417e-a21d-a0f3f5732023</id>
+    <title>Spaghettidicke - Karin</title>
+    <duration>172</duration>
+    <type>feature</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>f41158b1-f5c1-4957-99a6-7df15f4b6bd2</id>
+    <title>Nicole's Nachtigallen - Du fragsch mi wer i bi</title>
+    <duration>69</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>c68ed3eb-1920-4e7c-ad88-5a38ca6e2925</id>
+    <title>Plastik essen - Anita</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>1c5b2c27-10ac-4d6c-be87-dd045bec3f84</id>
+    <title>Kauen</title>
     <duration>10</duration>
-    <type>jingle</type>
+    <type>otone</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>5ad60ade-e2a0-4ddb-adaa-a32b53bb9565</id>
-    <title>Abmoderation</title>
-    <duration>60</duration>
-    <type>moderation</type>
-    <moderation>E: Wir haben eure Trommelfelle genügend Lange tracktiert, Zeit um bei der Vandalismussendung zum Punkt zu kommen - Irgendwann kann man ja nicht mehr mehr kaputt machen.
-S: Wär Teili vo dä Sendig verpasst hed cha sie scho gli of Blaton.ch nochelose.
-E: Nächste Sendung am 1. Mai, Thema, die Leinwand für Grafitti Artisten: Mauern. Wiederholung am 7. Juni um 16:00 auf Rasa oder um 18:00 auf Kanal K.
-S: Danke an Anita Hettich und Ralph Natter für Mitarbeit. Am Mikrofon für üch send gsi de Samuel Schwegler
-E: Und ich bin Evelyne und sage auf Wiederhören in vier Wochen. Anmod Song [Album: Destroyed, Broken Places]</moderation>
-    <comment/>
-  </entry>
-  <entry>
-    <id>cb6b17a2-2285-44af-aca5-0995aec2ff14</id>
-    <title>Moby - The Broken Places</title>
+    <id>5a984d90-7a7c-49a3-9f16-25d9a29caef4</id>
+    <title>Depeche Mode - A Question of Time</title>
     <duration>249</duration>
     <type>song</type>
     <moderation/>
-    <comment>Sehr gut zum Drüber Sprechen</comment>
+    <comment/>
+  </entry>
+  <entry>
+    <id>b9c77a32-45ab-458d-81c5-d9e3de93e17d</id>
+    <title>Abmod</title>
+    <duration>60</duration>
+    <type>moderation</type>
+    <moderation>R: U scho simmär am Endi vo Blaton aachoo. ich höffä mir händ eu di einti oder anderi Frag chönnä beantwortä. Wennär er Teil vo de Sendig verpasst händ oder di anderä Fragesendigä vo de letschä 4 Jahr wennd aalosä, ihr finded alli eusi Sendigä als Podcast.
+A: Wedr säuber Frage heit, wo dr scho lang gärn beantwortet würdet wöüä ha, de schribet doch äs Meil a redaktion@blaton.ch. Villich chöi mir üs de 2026 umenä Antwort kümmerä. 
+R: Di nögscht Sendig isch am Dunnschtig 8. Januar uf RaBe und d Widerholig vo dä Januarsendig isch denn am Samschtig 7. Februar am 4i uf RaSa und am 6i uf Kanal K.
+A: Danke am Samuel u dr Karin für iri Biträg zu derä Sändig
+R: Ich bi dä Ralph gsi
+A: U ig blibä no chli d Anita. Wedr jitz zviu Süessäs verwütschet im Dezämber de fröiet öich uf d'Januarsändig vo Blaton, det wird ds Thema nämlech "scharf" si.
+R: Bis denn ä wunderschöni Ziit, än guätä Rutsch und bis im neuä Jahr. Tschüss zämä</moderation>
+    <comment/>
+  </entry>
+  <entry>
+    <id>b9edbef0-ce6f-47ca-ac1d-2b9344fa4bbc</id>
+    <title>Rihanna - Question Existing</title>
+    <duration>246</duration>
+    <type>song</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>b81d8b20-fdbd-47ba-b30d-07928a051473</id>
+    <title>Gänsehaut - Anita</title>
+    <duration>180</duration>
+    <type>moderation</type>
+    <moderation/>
+    <comment/>
   </entry>
 </programme>

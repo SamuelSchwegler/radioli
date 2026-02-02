@@ -4,16 +4,20 @@ import cors from 'cors'
 import bodyParser from 'body-parser'
 import {parseStringPromise, Builder} from 'xml2js'
 import exportRoutes from './routes/export.js'
+
 const app = express()
 const port = 3000
+import {getXmlPath} from "./routes/helper.js";
 
 app.use(cors())
 app.use(bodyParser.json())
 
 // Load metadata from XML
 app.get('/programme', async (req, res) => {
+    const xmlPath = getXmlPath();
+
     try {
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const xml = fs.readFileSync(xmlPath, 'utf8');
         const json = await parseStringPromise(xml)
 
         const entries = json.programme.entry || []
@@ -74,12 +78,14 @@ app.post('/programme/meta', async (req, res) => {
 })
 
 app.post('/programme/entries', async (req, res) => {
+    const xmlPath = getXmlPath();
+
     try {
         const newEntries = req.body
 
         // Read and parse existing XML
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
-        const existing = await parseStringPromise(xml)
+        const xml = fs.readFileSync(xmlPath, 'utf-8')
+        const existing = await parseStringPromise(xml);
 
         // Update entries but keep meta
         const updatedProgramme = {
@@ -99,11 +105,11 @@ app.post('/programme/entries', async (req, res) => {
         const builder = new Builder()
         const newXml = builder.buildObject(updatedProgramme)
 
-        fs.writeFileSync('programme.xml', newXml)
+        fs.writeFileSync(xmlPath, newXml)
         res.json({message: 'Programme entries updated. Metadata preserved.'})
     } catch (err) {
         console.error(err)
-        res.status(500).json({error: 'Failed to update entries'})
+        res.status(500).json({error: 'Failed to update entries', details: err})
     }
 });
 
