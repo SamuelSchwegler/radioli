@@ -1,6 +1,6 @@
 # 📻 Radio Programme Planner
 
-A modern web application for planning and organizing radio programmes. Built with Vue 3, Tailwind CSS, and a Node.js + Express backend, it allows users to define show structure, manage durations, assign contributors, and export data to XML or Excel formats.
+A web application for planning and organizing radio programmes. Built with Vue 3, Tailwind CSS, and a Node.js + Express backend, it allows users to define show structure, manage durations, assign contributors, and export data to XML or Excel formats.
 
 ---
 
@@ -59,4 +59,12 @@ Falls sich ein File ändert des Servers (server.js, routes/*.js), muss der Serve
 
 ```bash
 sudo -u nodejs pm2 restart radioli
+# oder
+sudo -u nodejs pm2 start /var/www/html/radioli/server.js --name radioli
+```
+
+Bei Unklarheiten kann man den Server auch direkt starten und sieht dann die Fehlermeldungen in der Konsole:
+
+```bash
+sudo -u nodejs node /var/www/html/radioli/server.js
 ```

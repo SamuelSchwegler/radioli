@@ -46,7 +46,9 @@ import {ref} from 'vue'
 import TextInput from './../components/TextInput.vue'
 import DateInput from './../components/DateInput.vue'
 import Layout from "../Layout.vue";
+import {useToast} from "vue-toastification";
 
+const toast = useToast();
 const title = ref('')
 const date = ref('')
 const contributors = ref(['']) // Start with one contributor input
@@ -77,5 +79,7 @@ const saveMetadata = async () => {
     contributors: contributors.value
   })
   console.log('Metadata saved to XML!')
+  toast.success('Programm erfolgreich gespeichert!')
+
 }
 </script>

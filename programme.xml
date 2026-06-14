@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <programme>
   <meta>
-    <title>Frgen V - 11.12.2025</title>
+    <title>test</title>
     <date>2025-12-11</date>
     <contributors>
       <contributor>Ralph</contributor>
@@ -9,234 +9,57 @@
     </contributors>
   </meta>
   <entry>
-    <id>d05eb81c-7858-42dc-99d2-21386e0f7e8e</id>
-    <title>Anmod</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation>A: Hallo zäme da usä. Dir loset Blaton mit B wiä Blödsinn, Botztusig oder Bregunta... ok, ds Letschtä schribtmä zwar mitemenä "P" aber es passt so guet zu üserä letschtä Sändig vo däm jahr wosech aues um offe blibeni Fragä dräit. Ig wirde mir zwar müessä Müa gä nid eifach schtumm mit offenem Mu da z'sitze, mir sände nämlech zum erschte Mau us üsne affegeilä, wunderschöne, nöiä Schtudios hiä im Sulgerain zBärn. Für öich hüt am Mic binig d'Anita...
-R: und dä Ralph. Wi immer idä letschtä Sendig kümmeräd mär eus um alli offnänä Fragä vom Jahr
-A: Wo das Valsalva Manöver stattfindet, werum mär dickeri und dünneri Spaghetti ässäd und öb Plastik neuschtänsch zu eusnä Grundahrigsmittel ghört das ghöräd är i derä Sendung
-R: Aber zerscht staartämär mitemenä Song: XXXX</moderation>
-    <comment/>
-  </entry>
-  <entry>
-    <id>2a96f180-621a-470c-9571-96beae3ba98d</id>
-    <title>Blaton Intro Jingle</title>
-    <duration>10</duration>
+    <id>500aeb4d-f752-47ca-ac5b-c06fbc64ae93</id>
+    <title>Intro Jingle</title>
+    <duration>20</duration>
     <type>jingle</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>ca677a7e-fcd6-4d1e-a511-4a1eaaaf310f</id>
-    <title>Roger Cicero - Wenn Sie dich fragt</title>
-    <duration>284</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>edaade0c-1305-4a2f-ae34-fe0e74ea45d5</id>
-    <title>Anmod</title>
-    <duration>30</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>3cfeb579-e78b-4c0e-b6ae-0ffd6fcba1fa</id>
-    <title>Kapelle der guten Hoffnung - Eine gute Frage</title>
-    <duration>199</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>2371a5e7-a588-4301-bf16-6f6663a655a4</id>
-    <title>Dumme Fragen - Karin</title>
-    <duration>185</duration>
-    <type>feature</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>6bacebe1-7ee3-4642-ac33-602cb12da618</id>
-    <title>Regen</title>
-    <duration>10</duration>
-    <type>otone</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>e67e3454-c506-4874-bf6b-af6a531802b6</id>
-    <title>Velo durch Regen - Anita</title>
+    <id>d4f81af7-5f52-4331-a604-1a871e78d117</id>
+    <title>Anmoderation</title>
     <duration>120</duration>
     <type>moderation</type>
-    <moderation/>
+    <moderation>Du hörst Blaton mit B wie...</moderation>
     <comment/>
   </entry>
   <entry>
-    <id>cb897972-a16d-4b7c-8ff8-d9e734702360</id>
-    <title>Gjon's Tears - Répondez moi</title>
-    <duration>179</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>bae24965-3b54-4368-8159-da3bd266babf</id>
-    <title>Anmod</title>
-    <duration>30</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>df6e76dd-bb1d-4bc5-9b6e-86dee50bab7b</id>
-    <title>Wohnwagen - Samuel</title>
-    <duration>150</duration>
-    <type>feature</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>7b22eb29-0283-42bb-8573-0b85e0add90f</id>
-    <title>Sina - Ä Frag vo dä Ziit (Trip as Meer - Wohnwagen)</title>
-    <duration>214</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>3cec9200-5c0d-4954-9e1d-01e26897da4a</id>
-    <title>Fingernägel - Anita</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>b0de9780-0acb-403e-a0ea-2561440b7d73</id>
-    <title>System of a Down - Question!</title>
-    <duration>200</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>3b03d5a9-8812-4cba-b19c-1611de62b977</id>
-    <title>Anmod</title>
-    <duration>30</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>ed4612d1-ba2e-4a05-b3ae-a987f44ca351</id>
-    <title>Atmen durch die Ohren</title>
-    <duration>210</duration>
-    <type>feature</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>d68466ae-89bc-45e6-a8d4-ac4bb9928a80</id>
-    <title>Doctor by Day - La Pregunta</title>
+    <id>33ef6685-908e-48c0-b91e-4d12635d0265</id>
+    <title>Song</title>
     <duration>180</duration>
     <type>song</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>34d646fe-45e2-44ad-8ff5-139ecb8df5ad</id>
-    <title>Münzgrösse  - Ralph</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>048aa341-00fb-4104-a136-d234465bbcea</id>
-    <title>Prince - The Question of You</title>
-    <duration>239</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>1cf0d7c2-c950-41a0-acea-92abb4f30744</id>
-    <title>Anmod</title>
-    <duration>30</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>69e912cf-e713-417e-a21d-a0f3f5732023</id>
-    <title>Spaghettidicke - Karin</title>
-    <duration>172</duration>
-    <type>feature</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>f41158b1-f5c1-4957-99a6-7df15f4b6bd2</id>
-    <title>Nicole's Nachtigallen - Du fragsch mi wer i bi</title>
-    <duration>69</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>c68ed3eb-1920-4e7c-ad88-5a38ca6e2925</id>
-    <title>Plastik essen - Anita</title>
-    <duration>180</duration>
-    <type>moderation</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>1c5b2c27-10ac-4d6c-be87-dd045bec3f84</id>
-    <title>Kauen</title>
-    <duration>10</duration>
-    <type>otone</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>5a984d90-7a7c-49a3-9f16-25d9a29caef4</id>
-    <title>Depeche Mode - A Question of Time</title>
-    <duration>249</duration>
-    <type>song</type>
-    <moderation/>
-    <comment/>
-  </entry>
-  <entry>
-    <id>b9c77a32-45ab-458d-81c5-d9e3de93e17d</id>
-    <title>Abmod</title>
+    <id>c06db318-3686-4a73-96bb-658a634b98c9</id>
+    <title>Anmoderation Mal Ehrlich</title>
     <duration>60</duration>
     <type>moderation</type>
-    <moderation>R: U scho simmär am Endi vo Blaton aachoo. ich höffä mir händ eu di einti oder anderi Frag chönnä beantwortä. Wennär er Teil vo de Sendig verpasst händ oder di anderä Fragesendigä vo de letschä 4 Jahr wennd aalosä, ihr finded alli eusi Sendigä als Podcast.
-A: Wedr säuber Frage heit, wo dr scho lang gärn beantwortet würdet wöüä ha, de schribet doch äs Meil a redaktion@blaton.ch. Villich chöi mir üs de 2026 umenä Antwort kümmerä. 
-R: Di nögscht Sendig isch am Dunnschtig 8. Januar uf RaBe und d Widerholig vo dä Januarsendig isch denn am Samschtig 7. Februar am 4i uf RaSa und am 6i uf Kanal K.
-A: Danke am Samuel u dr Karin für iri Biträg zu derä Sändig
-R: Ich bi dä Ralph gsi
-A: U ig blibä no chli d Anita. Wedr jitz zviu Süessäs verwütschet im Dezämber de fröiet öich uf d'Januarsändig vo Blaton, det wird ds Thema nämlech "scharf" si.
-R: Bis denn ä wunderschöni Ziit, än guätä Rutsch und bis im neuä Jahr. Tschüss zämä</moderation>
+    <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>b9edbef0-ce6f-47ca-ac1d-2b9344fa4bbc</id>
-    <title>Rihanna - Question Existing</title>
-    <duration>246</duration>
+    <id>607d1ef8-94ca-4be1-b23f-38d17b3311a3</id>
+    <title>Mal Ehrlich</title>
+    <duration>1380</duration>
+    <type>feature</type>
+    <moderation/>
+    <comment/>
+  </entry>
+  <entry>
+    <id>155dce20-db6c-44ca-b7ef-c9ce89592815</id>
+    <title>Song</title>
+    <duration>180</duration>
     <type>song</type>
     <moderation/>
     <comment/>
   </entry>
   <entry>
-    <id>b81d8b20-fdbd-47ba-b30d-07928a051473</id>
-    <title>Gänsehaut - Anita</title>
-    <duration>180</duration>
+    <id>4dd81a99-f0ec-4d7d-a499-ff68d37ce8cb</id>
+    <title>Abmoderation Sendung</title>
+    <duration>60</duration>
     <type>moderation</type>
     <moderation/>
     <comment/>

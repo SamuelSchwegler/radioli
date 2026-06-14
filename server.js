@@ -45,11 +45,13 @@ app.get('/programme', async (req, res) => {
 })
 
 app.post('/programme/meta', async (req, res) => {
+    const xmlPath = getXmlPath();
+
     try {
         const newMeta = req.body
 
         // Read and parse existing XML
-        const xml = fs.readFileSync('programme.xml', 'utf-8')
+        const xml = fs.readFileSync(xmlPath, 'utf8');
         const existing = await parseStringPromise(xml)
 
         // Replace the meta, keep the entries
@@ -69,7 +71,7 @@ app.post('/programme/meta', async (req, res) => {
         const builder = new Builder()
         const newXml = builder.buildObject(updatedProgramme)
 
-        fs.writeFileSync('programme.xml', newXml)
+        fs.writeFileSync(xmlPath, newXml);
         res.json({message: 'Metadata updated. Entries preserved.'})
     } catch (err) {
         console.error(err)
@@ -99,6 +101,35 @@ app.post('/programme/entries', async (req, res) => {
                     moderation: e.moderation,
                     comment: e.comment
                 }))
+            }
+        }
+
+        const builder = new Builder()
+        const newXml = builder.buildObject(updatedProgramme)
+
+        fs.writeFileSync(xmlPath, newXml)
+        res.json({message: 'Programme entries updated. Metadata preserved.'})
+    } catch (err) {
+        console.error(err)
+        res.status(500).json({error: 'Failed to update entries', details: err})
+    }
+});
+
+app.delete('/programme/entries', async (req, res) => {
+    const xmlPath = getXmlPath();
+
+    try {
+        const newEntries = req.body
+
+        // Read and parse existing XML
+        const xml = fs.readFileSync(xmlPath, 'utf-8')
+        const existing = await parseStringPromise(xml);
+
+        // Update entries but keep meta
+        const updatedProgramme = {
+            programme: {
+                meta: existing.programme.meta,
+                entry: []
             }
         }
 

@@ -1,6 +1,7 @@
 <template>
   <Layout current-name="TimeLine">
-    <div class="grid gap-4 lg:grid-cols-3 h-screen py-10">
+    <Loader v-if="loading"/>
+    <div class="grid gap-4 lg:grid-cols-3 h-screen py-10" v-if="!loading">
       <div class="relative lg:col-span-2 overflow-y-auto">
         <div class="overflow-hidden bg-white shadow sm:rounded-md">
           <draggable v-model="timeline" item-key="title" tag="ul" class="divide-y divide-gray-200"
@@ -32,12 +33,19 @@
         </Btn>
         <template v-if="editEntry.hasOwnProperty('type')">
           <HorizontalLine/>
-          <EditTimeLineEntry v-model="editEntry" :types="types" v-on:override="overrideEntry" v-on:remove="removeEntry" />
+          <EditTimeLineEntry v-model="editEntry" :types="types" v-on:override="overrideEntry"
+                             v-on:remove="removeEntry"/>
         </template>
         <HorizontalLine/>
         <span class="text-sm">Totale Dauer: {{ formatSeconds(totalDuration) }}</span><br>
         <Btn @click="addEntry">
           Neuer Eintrag
+        </Btn>
+        <Btn @click="confirmDefault" class="bg-red-500 hover:bg-red-600">
+          Programm leeren
+        </Btn>
+        <Btn @click="confirmReset" class="bg-red-500 hover:bg-red-600">
+          Standardprogramm
         </Btn>
       </div>
     </div>
@@ -52,6 +60,7 @@ import TimeEntry from "../components/TimeEntry.vue";
 import draggable from "vuedraggable";
 import {useToast} from "vue-toastification";
 import Btn from "../components/Btn.vue";
+
 const apiUrl = import.meta.env.VITE_API_URL
 
 const toast = useToast()
@@ -59,6 +68,7 @@ const toast = useToast()
 const timelineKey = ref(0);
 const timeline = ref([]);
 const editEntry = ref({});
+const loading = ref(false);
 
 const types = [{
   value: 'jingle',
@@ -88,10 +98,19 @@ const types = [{
 
 const programmTitle = ref('');
 
-const loadMetadata = async () => {
-  const response = await axios.get(apiUrl + '/programme')
-  timeline.value = response.data.entries
-  programmTitle.value = response.data.meta.title
+const loadMetadata = () => {
+  loading.value = true;
+  axios.get(apiUrl + '/programme').then((response) => {
+    timeline.value = response.data.entries
+    programmTitle.value = response.data.meta.title
+  }).catch((error) => {
+    console.log(error);
+    toast(error.response?.data?.message || 'Fehler beim Laden der Daten', {
+      type: 'error'
+    });
+  }).finally(() => {
+    loading.value = false;
+  })
 }
 loadMetadata();
 
@@ -132,10 +151,82 @@ import TimeInput from "../components/TimeInput.vue";
 import TextInput from "../components/TextInput.vue";
 import HorizontalLine from "../components/HorizontalLine.vue";
 import EditTimeLineEntry from "./Parts/EditTimeLineEntry.vue";
+import Loader from "../components/Loader.vue";
 
 const saveProgramme = async () => {
   await axios.post(apiUrl + '/programme/entries', timeline.value)
   toast.success('Programm erfolgreich gespeichert!')
+}
+
+const confirmReset = () => {
+  if (confirm('Willst du alle Einträge zurücksetzen auf ein minimales Gerüst?')) {
+    resetProgramme();
+  }
+};
+
+const resetProgramme = () => {
+  const defaultTimeline = [{
+    id: crypto.randomUUID(),
+    title: 'Intro Jingle',
+    type: 'jingle',
+    duration: 20,
+  }, {
+    id: crypto.randomUUID(),
+    title: 'Anmoderation',
+    type: 'moderation',
+    duration: 120,
+    moderation: 'Du hörst Blaton mit B wie...'
+  }, {
+    id: crypto.randomUUID(),
+    title: 'Song',
+    type: 'song',
+    duration: 180,
+  }, {
+    id: crypto.randomUUID(),
+    title: 'Anmoderation Mal Ehrlich',
+    type: 'moderation',
+    duration: 60,
+    moderation: ''
+  }, {
+    id: crypto.randomUUID(),
+    title: 'Mal Ehrlich',
+    type: 'feature',
+    duration: 1380,
+  }, {
+    id: crypto.randomUUID(),
+    title: 'Song',
+    type: 'song',
+    duration: 180,
+  }, {
+    id: crypto.randomUUID(),
+    title: 'Abmoderation Sendung',
+    type: 'moderation',
+    duration: 60,
+    moderation: ''
+  }];
+  axios.post(apiUrl + '/programme/entries', defaultTimeline).then((response) => {
+    toast.success('Programm erfolgreich ausgedünnt!');
+    timeline.value = defaultTimeline;
+  }).catch((error) => {
+    console.log(error);
+    toast.error('Probleme beim löschen');
+  })
+}
+
+const confirmDefault = () => {
+  if (confirm('Willst du alle Einträge löschen?')) {
+    defaultProgramme();
+  }
+};
+
+const defaultProgramme = () => {
+  axios.delete(apiUrl + '/programme/entries').then((response) => {
+    toast.success('Programm erfolgreich geleert!');
+    timeline.value = [];
+  }).catch((error) => {
+    console.log(error);
+    toast.error('Probleme beim löschen');
+  })
 }
 
 const downloadProgramme = async () => {
