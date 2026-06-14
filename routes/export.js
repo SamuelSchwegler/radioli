@@ -42,7 +42,7 @@ router.get('/excel', async (req, res) => {
             {header: 'Dauer', key: 'duration'},
             {header: '#', key: 'tecNumber'},
             {header: 'Title', key: 'title'},
-            {header: 'Moderation', key: 'moderation'}
+            {header: 'Kommentar', key: 'comment'}
         ]
 
 // Type to color
@@ -53,9 +53,10 @@ router.get('/excel', async (req, res) => {
             unclear: "fb2c36"
         }
 
-// Rows
-        let currentStart = 0
+        // Rows
         let tecNumber = 1;
+        let previousType = '';
+        let currentRow = 2;
         entries.forEach((e, i) => {
             const durationSeconds = parseInt(e.duration?.[0] || '0', 10)
 
@@ -72,8 +73,8 @@ router.get('/excel', async (req, res) => {
                 type: e.type?.[0] || '',
                 start: null,
                 duration: durationSeconds / 86400, // convert seconds to Excel time
-                moderation: (e.moderation?.[0] || e.comment?.[0] || '').trim()
-            })
+                comment: (e.comment?.[0] || '').trim()
+            });
 
             // Style Duration cell (column B)
             row.getCell('B').numFmt = '[mm]:ss'
@@ -84,12 +85,18 @@ router.get('/excel', async (req, res) => {
                 row.getCell('A').value = 0
             } else {
                 // Next rows: Add previous start + previous duration
-                const prevStartCell = `A${i + 1}` // +1 because Excel is 1-indexed
-                const prevDurationCell = `B${i + 1}`
+                const prevStartCell = `A${currentRow}` // +1 because Excel is 1-indexed
+                const prevDurationCell = `B${currentRow}`
 
                 row.getCell('A').value = {
                     formula: `${prevStartCell}+${prevDurationCell}`
                 }
+
+                if(previousType === 'moderation') {
+                    currentRow += 1;
+                }
+
+                currentRow++;
             }
 
             // Style Start cell (column A)
@@ -113,6 +120,16 @@ router.get('/excel', async (req, res) => {
                     }
                 })
             }
+
+            if (e.type?.[0] === 'moderation') {
+                // Zwischenspalte mit Moderation
+                const modRow = sheet.addRow({});
+                const modRowNumber = modRow.number;
+                sheet.mergeCells(`A${modRowNumber}:E${modRowNumber}`);
+                modRow.getCell('A').value = (e.moderation?.[0] || '').trim();
+            }
+
+            previousType = e.type?.[0];
         })
 
         const programm_title = meta.title?.[0] || ''
